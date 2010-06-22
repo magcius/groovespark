@@ -2,15 +2,15 @@
 
 import sys
 import groovespark
-
+import proplist
 from twisted.internet import reactor, defer
 
 @defer.inlineCallbacks
-def main(songid, filename="id_%s.mp3"):
+def main(token):
     gs = groovespark.GroovesharkAPI()
     yield gs.initialize()
-    yield gs.downloadSongID(songid, filename % (songid,))
-    reactor.stop()
+    result = yield gs.send('getSongFromToken', dict(token=token), "more.php")
+    print result['SongID']
 
 if __name__ == "__main__":
     main(*sys.argv[1:])

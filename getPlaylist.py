@@ -1,34 +1,12 @@
 #!/usr/bin/env python
 
-import operator
 import sys
-import api
-import codecs
-from twisted.internet import reactor, defer
+import proplist
+from twisted.internet import reactor
 
-@defer.inlineCallbacks
-def main(playlistID, filename=None):
-    filename = filename or "songlist.txt"
-    gs = api.GroovesharkAPI()
-    yield gs.initialize()
-    result = yield gs.getPlaylist(playlistID)
-    with codecs.open(filename, "w", "utf8") as file:
-        print >>file, """
-# Comment out songs you don't want downloaded.
-# Download with downloadSongList.py
-
-# Don't change the song ID.
-# Changing any other metadata isn't going to change the ID3 info of the tag.
-
-# Playlist ID: %s
-""" % (playlistID,)
-        for songinfo in sorted(result['Songs'], key=lambda k: int(k[u'Sort'])):
-            songinfo.pop(u'Sort')
-            songinfo.pop(u'Flags')
-            songinfo.pop(u'Popularity')
-            songinfo.pop(u'EstimateDuration')
-            print >>file, ' ;; '.join(u'%s: %s' % (k, v) for k, v in songinfo.iteritems())
-    reactor.stop()
+def main(playlistID, filename="songlist.txt"):
+    proplist.apiWrapper("getPlaylist", proplist.dumpSongs, filename,
+        comments="# Playlist ID: " % playlistID, query=query, type=type)
 
 if __name__ == "__main__":
     main(*sys.argv[1:])
