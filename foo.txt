@@ -1,0 +1,31 @@
+
+
+# Comment out songs you don't want downloaded.
+# Download with downloadSongList.py
+
+# Don't change the song ID.
+# Changing any other metadata isn't going to change the ID3 info of the tag.
+
+# Playlist ID: 12345
+
+
+Sort: 0 ;; SongID: 477 ;; Name: Spider Webs ;; ArtistName: No Doubt ;; AlbumName: Tragic Kingdom ;; AlbumID: 91761 ;; ArtistID: 99 ;; CoverArtFilename: c345b072d1a888f171b549bed6691ce1.png ;; TrackNum: 1
+Sort: 1.54674e+37 ;; SongID: 154399 ;; Name: Manic Monday ;; ArtistName: Bangles ;; AlbumName: Top 1000 Pop Hits of the 80's ;; AlbumID: 174166 ;; ArtistID: 2932 ;; CoverArtFilename: None ;; TrackNum: None
+Sort: 3.09347e+37 ;; SongID: 1555663 ;; Name: Creep ;; ArtistName: Radiohead ;; AlbumName: Pablo Honey ;; AlbumID: 2363691 ;; ArtistID: 15 ;; CoverArtFilename: 2363691.jpg ;; TrackNum: 2
+Sort: 4.12463e+37 ;; SongID: 61560 ;; Name: Only Happy When It Rains ;; ArtistName: Garbage ;; AlbumName: Absolute Garbage ;; AlbumID: 166437 ;; ArtistID: 1052 ;; CoverArtFilename: b42f5653898180e26a7db9eb699c19eb.png ;; TrackNum: 5
+Sort: 5.15579e+37 ;; SongID: 10632059 ;; Name: See You Again ;; ArtistName: Antonina Armato ;; AlbumName: Meet Miley Cyrus ;; AlbumID: 244323 ;; ArtistID: 240677 ;; CoverArtFilename: 244323.png ;; TrackNum: 1
+Sort: 6.70252e+37 ;; SongID: 7769666 ;; Name: You Owe Me an IOU ;; ArtistName: Hot Hot Heat ;; AlbumName: Elevator ;; AlbumID: 113036 ;; ArtistID: 2092 ;; CoverArtFilename: afb178192734d1ee6afa39ade281a9fb.png ;; TrackNum: 5
+Sort: 9.28042e+37 ;; SongID: 4606882 ;; Name: Hope Youre Happy Now ;; ArtistName: Sounds, The ;; AlbumName: Living In America ;; AlbumID: 199204 ;; ArtistID: 274196 ;; CoverArtFilename: 4606884.jpg ;; TrackNum: 10
+Sort: 9.796e+37 ;; SongID: 4455901 ;; Name: 4 Ever ;; ArtistName: The Veronicas ;; AlbumName: 4 Ever ;; AlbumID: 580876 ;; ArtistID: 20700 ;; CoverArtFilename: 4455905.jpg ;; TrackNum: 1
+Sort: 1.08272e+38 ;; SongID: 8102591 ;; Name: Lady At The Gate ;; ArtistName: Maylene and the Sons of Disaster ;; AlbumName: Maylene And The Sons Of Disaster ;; AlbumID: 633796 ;; ArtistID: 403985 ;; CoverArtFilename: None ;; TrackNum: 8
+Sort: 1.13427e+38 ;; SongID: 7453 ;; Name: Three Hours Back ;; ArtistName: Silverstein ;; AlbumName: Discovering The Waterfront ;; AlbumID: 108861 ;; ArtistID: 1428 ;; CoverArtFilename: a9c0128b3c72c9aa7fd3c2ba724eee21.png ;; TrackNum: 10
+Sort: 1.18583e+38 ;; SongID: 425009 ;; Name: Bleeds No More ;; ArtistName: Silverstein ;; AlbumName: When Broken Is Easily Fixed ;; AlbumID: 236977 ;; ArtistID: 1428 ;; CoverArtFilename: 961f0f2ff1722810a9b19523f6254dd6.png ;; TrackNum: 6
+Sort: 1.23739e+38 ;; SongID: 425004 ;; Name: Smashed Into Pieces ;; ArtistName: Silverstein ;; AlbumName: When Broken Is Easily Fixed ;; AlbumID: 236977 ;; ArtistID: 1428 ;; CoverArtFilename: 961f0f2ff1722810a9b19523f6254dd6.png ;; TrackNum: 1
+Sort: 1.28895e+38 ;; SongID: 7452 ;; Name: The Ides Of March ;; ArtistName: Silverstein ;; AlbumName: Discovering The Waterfront ;; AlbumID: 108861 ;; ArtistID: 1428 ;; CoverArtFilename: a9c0128b3c72c9aa7fd3c2ba724eee21.png ;; TrackNum: 3
+Sort: 1.3405e+38 ;; SongID: 7450 ;; Name: My Heroine ;; ArtistName: Silverstein ;; AlbumName: Discovering The Waterfront ;; AlbumID: 108861 ;; ArtistID: 1428 ;; CoverArtFilename: a9c0128b3c72c9aa7fd3c2ba724eee21.png ;; TrackNum: 7
+Sort: 1.39206e+38 ;; SongID: 7444 ;; Name: Already Dead ;; ArtistName: Silverstein ;; AlbumName: Discovering The Waterfront ;; AlbumID: 108861 ;; ArtistID: 1428 ;; CoverArtFilename: a9c0128b3c72c9aa7fd3c2ba724eee21.png ;; TrackNum: 9
+Sort: 1.44362e+38 ;; SongID: 4549054 ;; Name: Treasure Island ;; ArtistName: Brighten ;; AlbumName: King Vs Queen ;; AlbumID: 713577 ;; ArtistID: 19502 ;; CoverArtFilename: None ;; TrackNum: 4
+Sort: 1.49518e+38 ;; SongID: 1082920 ;; Name: Skeleton Song ;; ArtistName: Kate Nash ;; AlbumName: Made Of Bricks ;; AlbumID: 367092 ;; ArtistID: 14482 ;; CoverArtFilename: e02e3edc58da03c26a9d57b89ef55244.png ;; TrackNum: 10
+Sort: 1.54674e+38 ;; SongID: 611035 ;; Name: Yellow Spider ;; ArtistName: Me Without You ;; AlbumName: Brother Sister ;; AlbumID: 276221 ;; ArtistID: 4454 ;; CoverArtFilename: 1175340.jpg ;; TrackNum: 4
+Sort: 1.59829e+38 ;; SongID: 611043 ;; Name: Brownish Spider ;; ArtistName: Me Without You ;; AlbumName: Brother Sister ;; AlbumID: 276221 ;; ArtistID: 4454 ;; CoverArtFilename: 1175340.jpg ;; TrackNum: 12
+Sort: 1.64985e+38 ;; SongID: 529847 ;; Name: Indiana ;; ArtistName: Meg & Dia ;; AlbumName: Something Real ;; AlbumID: 250246 ;; ArtistID: 24233 ;; CoverArtFilename: 529854.jpg ;; TrackNum: 4
