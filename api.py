@@ -1,3 +1,5 @@
+
+import os
 import functools
 import hashlib
 import json
@@ -9,30 +11,37 @@ from twisted.python import runtime, log
 from twisted.internet import defer
 from twisted.web import error, client
 
-API_URL = "http://cowbell.grooveshark.com/"
+# Always use https, since getting a token requires it.
+API_URL = "https://cowbell.grooveshark.com/"
+ART_BASE_URL = "http://beta.grooveshark.com/static/amazonart/m"
 
 class JSONFault(Exception): pass
 
 class GroovesharkAPI(object):
-    def __init__(self, secure=True, url=API_URL):
-        self.secure = secure
-        if secure:
-            url = url.replace("http", "https")
+    def __init__(self, url=API_URL):
         self.url = url
+
+        # ok, I'm just copying the stuff from the requests.
         self.headers = dict(client="gslite", clientRevision="20100412.39",
                             privacy=1, uuid=str(uuid.uuid4()).upper())
+
+        # Content-Type headers for usual stuff.
         self.jsonContent = {"content-type":"application/json"}
         self.formContent = {"content-type":"application/x-www-form-urlencoded"}
+
+        # Token expiration date.
         self.tokenExpire = None
         self.country = None
-        self.initialized = False
         self.commandQueue = []
         self.initialize()
 
     @defer.inlineCallbacks
     def initialize(self):
+        self.initialized = False
         yield self.fetchSessionID()
         yield self.fetchToken()
+        # I'm not sure if you *need* a country,
+        # but the official client uses it.
         yield self.fetchCountry()
         self.initialized = True
         for func, deferred in self.commandQueue:
@@ -128,10 +137,23 @@ class GroovesharkAPI(object):
         factory.afterFoundGet = True
         yield factory.deferred
 
+    @defer.inlineCallbacks
+    def downloadCoverArt(self, coverArtFilename, filename):
+        _, extension = os.path.splitext(coverArtFilename)
+        if coverArtFilename not in (u'None', u'False'):
+            yield client.downloadPage(ART_BASE_URL + str(coverArtFilename),
+                                      filename + extension)
+
     def downloadSongID(self, songID, filename):
-        d = self.getStreamingInfo(songID)
-        d.addCallback(functools.partial(self.downloadSong, filename=filename))
-        return d
+        print ("Downloading %s to %s" % (songID, filename))
+        self.getStreamingInfo(songID).addCallback(
+            functools.partial(self.downloadSong, filename=filename))
+
+    def downloadSongInfo(self, songInfo, filename, artFilename=None):
+        songID = songInfo[u'SongID']
+        if artFilename and songInfo.get(u'CoverArtFilename'):
+            self.downloadCoverArt(songInfo[u'CoverArtFilename'], artFilename)
+        self.downloadSongID(songID, filename)
 
     @defer.inlineCallbacks
     def getPlaylist(self, playlistID):

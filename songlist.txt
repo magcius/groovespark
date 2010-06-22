@@ -1,290 +1,294 @@
-# Comment out songs you don't want downloaded
+
+# Comment out songs you don't want downloaded.
 # Download with downloadSongList.py
 
 # Don't change the song ID.
 # Changing any other metadata isn't going to change the ID3 info of the tag.
-SongID: 2575365 ;; Name: Punk Rock Girl ;; ArtistName: The Dead Milkmen ;; AlbumName: Death Rides a Pale Cow: The Ultimate Collection ;; AlbumID: 117993 ;; ArtistID: 18902 ;; TrackNum: None
-SongID: 712583 ;; Name: Stuart ;; ArtistName: The Dead Milkmen ;; AlbumName: Beelzebubba ;; AlbumID: 184409 ;; ArtistID: 18902 ;; TrackNum: 3
-SongID: 24539127 ;; Name: Never Gonna Give You Up ;; ArtistName: Rick Astley ;; AlbumName: Whenever You Need Somebody ;; AlbumID: 100204 ;; ArtistID: 490 ;; TrackNum: 1
-SongID: 1124092 ;; Name: Oh Yeah ;; ArtistName: Yello ;; AlbumName: One Second ;; AlbumID: 341937 ;; ArtistID: 19203 ;; TrackNum: 9
-SongID: 24616997 ;; Name: Roundabout ;; ArtistName: Yes ;; AlbumName: Fragile ;; AlbumID: 147957 ;; ArtistID: 2517 ;; TrackNum: 0
-SongID: 119344 ;; Name: The Gates Of Delirium ;; ArtistName: Yes ;; AlbumName: Relayer ;; AlbumID: 165527 ;; ArtistID: 2517 ;; TrackNum: 1
-SongID: 18267982 ;; Name: Just ;; ArtistName: Radiohead ;; AlbumName: Live Au Forum ;; AlbumID: 650714 ;; ArtistID: 15 ;; TrackNum: 1
-SongID: 7287837 ;; Name: How to Disappear Completely ;; ArtistName: Radiohead ;; AlbumName: Kid A ;; AlbumID: 94807 ;; ArtistID: 15 ;; TrackNum: 4
-SongID: 3895977 ;; Name: Jigsaw Falling Into Place ;; ArtistName: Radiohead ;; AlbumName: In Rainbows ;; AlbumID: 736315 ;; ArtistID: 15 ;; TrackNum: 9
-SongID: 24499878 ;; Name: The High Road ;; ArtistName: Broken Bells ;; AlbumName: Broken Bells ;; AlbumID: 3749506 ;; ArtistID: 1257602 ;; TrackNum: 1
-SongID: 7994115 ;; Name: Midnight In A Perfect World ;; ArtistName: DJ Shadow ;; AlbumName: Endtroducing ;; AlbumID: 188225 ;; ArtistID: 402467 ;; TrackNum: 0
-SongID: 7994116 ;; Name: Building Steam With A Grain Of Salt ;; ArtistName: DJ Shadow ;; AlbumName: Endtroducing ;; AlbumID: 188225 ;; ArtistID: 402467 ;; TrackNum: 0
-SongID: 21851310 ;; Name: Baba O'Reilly ;; ArtistName: The Who ;; AlbumName: The Who ;; AlbumID: 381628 ;; ArtistID: 54 ;; TrackNum: 0
-SongID: 24435529 ;; Name: Would ;; ArtistName: Alice in Chains ;; AlbumName: Dirt ;; AlbumID: 1090202 ;; ArtistID: 401969 ;; TrackNum: 13
-SongID: 182659 ;; Name: Goin' Out West ;; ArtistName: Tom Waits ;; AlbumName: Bone Machine ;; AlbumID: 139172 ;; ArtistID: 1591 ;; TrackNum: 10
-SongID: 182778 ;; Name: Singapore ;; ArtistName: Tom Waits ;; AlbumName: Rain Dogs ;; AlbumID: 186217 ;; ArtistID: 1591 ;; TrackNum: 1
-SongID: 182828 ;; Name: 16 Shells From A Thirty-ought Six ;; ArtistName: Tom Waits ;; AlbumName: Swordfish Trombones ;; AlbumID: 186218 ;; ArtistID: 1591 ;; TrackNum: 5
-SongID: 182814 ;; Name: Step Right Up ;; ArtistName: Tom Waits ;; AlbumName: Small Change ;; AlbumID: 178331 ;; ArtistID: 1591 ;; TrackNum: 2
-SongID: 518229 ;; Name: Shore Leave ;; ArtistName: Tom Waits ;; AlbumName: Beautiful Maladies: The Island Years ;; AlbumID: 258053 ;; ArtistID: 1591 ;; TrackNum: 12
-SongID: 182799 ;; Name: Hoist That Rag ;; ArtistName: Tom Waits ;; AlbumName: Real Gone ;; AlbumID: 2695977 ;; ArtistID: 1591 ;; TrackNum: 2
-SongID: 7319192 ;; Name: Hurt ;; ArtistName: Johnny Cash ;; AlbumName: American IV: The Man Comes Around ;; AlbumID: 1089529 ;; ArtistID: 439 ;; TrackNum: 2
-SongID: 25368424 ;; Name: Sunday Mornin' Comin' Down ;; ArtistName: Johnny Cash ;; AlbumName: The Legend ;; AlbumID: 276071 ;; ArtistID: 439 ;; TrackNum: 19
-SongID: 8273575 ;; Name: Ragged Wood ;; ArtistName: Fleet Foxes ;; AlbumName: Fleet Foxes ;; AlbumID: 1100765 ;; ArtistID: 238252 ;; TrackNum: 3
-SongID: 7156917 ;; Name: Mykonos ;; ArtistName: Fleet Foxes ;; AlbumName: Sun Giant ;; AlbumID: 1060773 ;; ArtistID: 238252 ;; TrackNum: 4
-SongID: 13056482 ;; Name: White Winter Hymnal ;; ArtistName: Fleet Foxes ;; AlbumName: Fleet Foxes ;; AlbumID: 1100765 ;; ArtistID: 238252 ;; TrackNum: 2
-SongID: 9875287 ;; Name: Drops In The River ;; ArtistName: Fleet Foxes ;; AlbumName: Fleet Foxes [Special Edition] [Disc 2] ;; AlbumID: 3278724 ;; ArtistID: 238252 ;; TrackNum: 2
-SongID: 21637833 ;; Name: The Sound of Muzak ;; ArtistName: Porcupine Tree ;; AlbumName: In Absentia ;; AlbumID: 125157 ;; ArtistID: 4003 ;; TrackNum: 4
-SongID: 22957908 ;; Name: Stillness Is The Move ;; ArtistName: Dirty Projectors ;; AlbumName: Bitte Orca ;; AlbumID: 3372422 ;; ArtistID: 9072 ;; TrackNum: 4
-SongID: 22400575 ;; Name: Brother In Arms ;; ArtistName: Dire Straits ;; AlbumName: Brothers In Arms ;; AlbumID: 124951 ;; ArtistID: 423 ;; TrackNum: 9
-SongID: 167347 ;; Name: Telegraph Road ;; ArtistName: Dire Straits ;; AlbumName: Love over Gold ;; AlbumID: 180349 ;; ArtistID: 423 ;; TrackNum: 1
-SongID: 14516612 ;; Name: Where I'm From ;; ArtistName: Digable Planets ;; AlbumName: Reachin' (A New Refutation of Time and Space) ;; AlbumID: 1619643 ;; ArtistID: 3187 ;; TrackNum: 3
-SongID: 8956305 ;; Name: Somewhere Over the Rainbow ;; ArtistName: Israel Kamakawiwoʻole ;; AlbumName: Facing Future ;; AlbumID: 1119847 ;; ArtistID: 401762 ;; TrackNum: 14
-SongID: 69354 ;; Name: Locomotive Breath ;; ArtistName: Jethro Tull ;; AlbumName: A Little Light Music ;; AlbumID: 172878 ;; ArtistID: 3537 ;; TrackNum: 17
-SongID: 22470450 ;; Name: Frank Sinatra ;; ArtistName: CAKE ;; AlbumName: Fashion Nugget [Clean] ;; AlbumID: 253220 ;; ArtistID: 405212 ;; TrackNum: 1
-SongID: 538399 ;; Name: New Orleans Is Sinking ;; ArtistName: Tragically Hip ;; AlbumName: Up To Here ;; AlbumID: 262619 ;; ArtistID: 36565 ;; TrackNum: None
-SongID: 1334776 ;; Name: Little Bones ;; ArtistName: The Tragically Hip ;; AlbumName: Road Apples ;; AlbumID: 262623 ;; ArtistID: 7086 ;; TrackNum: 1
-SongID: 24578199 ;; Name: Naveed ;; ArtistName: Our Lady Peace ;; AlbumName: Naveed ;; AlbumID: 156759 ;; ArtistID: 679 ;; TrackNum: 5
-SongID: 4607589 ;; Name: Stereo ;; ArtistName: Watchmen, The ;; AlbumName: Silent Radar ;; AlbumID: 243953 ;; ArtistID: 274200 ;; TrackNum: 1
-SongID: 4607580 ;; Name: Wiser ;; ArtistName: Watchmen, The ;; AlbumName: In The Trees ;; AlbumID: 271771 ;; ArtistID: 274200 ;; TrackNum: 4
-SongID: 14466474 ;; Name: Hyacinth House ;; ArtistName: The Doors ;; AlbumName: L.A. Woman ;; AlbumID: 1328183 ;; ArtistID: 2428 ;; TrackNum: 7
-SongID: 574613 ;; Name: Fly Like An Eagle ;; ArtistName: Steve Miller Band ;; AlbumName: Young Hearts: Complete Greatest Hits ;; AlbumID: 183803 ;; ArtistID: 2398 ;; TrackNum: 8
-SongID: 24436125 ;; Name: Skinny Love ;; ArtistName: Bon Iver ;; AlbumName: For Emma, Forever Ago ;; AlbumID: 683840 ;; ArtistID: 220454 ;; TrackNum: 3
-SongID: 37248 ;; Name: All Caps ;; ArtistName: Madvillain ;; AlbumName: Madvillainy ;; AlbumID: 130801 ;; ArtistID: 18525 ;; TrackNum: 20
-SongID: 23014383 ;; Name: Home ;; ArtistName: Edward Sharpe & The Magnetic Zeros ;; AlbumName: Up from Below (Bonus Track Version) ;; AlbumID: 3386841 ;; ArtistID: 1163185 ;; TrackNum: 6
-SongID: 4043397 ;; Name: Hits From The Bong ;; ArtistName: Cypress Hill ;; AlbumName: Cypress Hill - Black Sunday ;; AlbumID: 752338 ;; ArtistID: 918 ;; TrackNum: None
-SongID: 7592425 ;; Name: Nature's Revenge ;; ArtistName: Skinny Puppy ;; AlbumName: Too Dark Park ;; AlbumID: 380812 ;; ArtistID: 12462 ;; TrackNum: 0
-SongID: 16789463 ;; Name: When the Night Feels My Song ;; ArtistName: Bedouin Soundclash ;; AlbumName: Sounding a Mosaic ;; AlbumID: 1319194 ;; ArtistID: 439029 ;; TrackNum: 1
-SongID: 13298854 ;; Name: No One Knows ;; ArtistName: Queens of the Stone Age ;; AlbumName: Songs For The Deaf ;; AlbumID: 126321 ;; ArtistID: 401699 ;; TrackNum: 0
-SongID: 933866 ;; Name: Cutsman ;; ArtistName: Horse The Band ;; AlbumName: R Borlax ;; AlbumID: 129156 ;; ArtistID: 4446 ;; TrackNum: 2
-SongID: 59467 ;; Name: Alarm Call ;; ArtistName: Björk ;; AlbumName: Homogenic ;; AlbumID: 145153 ;; ArtistID: 5149 ;; TrackNum: 8
-SongID: 7640535 ;; Name: Arrested in Shanghai ;; ArtistName: Rancid ;; AlbumName: Indestructible ;; AlbumID: 108723 ;; ArtistID: 1358 ;; TrackNum: 8
-SongID: 23075062 ;; Name: Benson Hedges ;; ArtistName: fun. ;; AlbumName: Aim and Ignite ;; AlbumID: 4520721 ;; ArtistID: 1163453 ;; TrackNum: 2
-SongID: 7151361 ;; Name: High and Dry ;; ArtistName: Radiohead ;; AlbumName: The Best of Radiohead ;; AlbumID: 2844218 ;; ArtistID: 15 ;; TrackNum: 6
-SongID: 30284 ;; Name: Windowsill ;; ArtistName: Arcade Fire ;; AlbumName: Neon Bible ;; AlbumID: 119682 ;; ArtistID: 3415 ;; TrackNum: 9
-SongID: 11962757 ;; Name: What Does Your Sould Look Like, Pt. 4 ;; ArtistName: DJ Shadow ;; AlbumName: Endtroducing ;; AlbumID: 188225 ;; ArtistID: 402467 ;; TrackNum: 0
-SongID: 15814523 ;; Name: Hot Love ;; ArtistName: T. Rex ;; AlbumName: Electric Warrior ;; AlbumID: 1144345 ;; ArtistID: 403731 ;; TrackNum: 15
-SongID: 24570423 ;; Name: She Likes Hair Bands ;; ArtistName: Butch Walker ;; AlbumName: I Liked It Better When You Had No Heart ;; AlbumID: 3971287 ;; ArtistID: 24309 ;; TrackNum: 7
-SongID: 24539137 ;; Name: Sultans Of Swing ;; ArtistName: Dire Straits ;; AlbumName: Sultans of Swing: The Very Best of Dire Straits ;; AlbumID: 1385089 ;; ArtistID: 423 ;; TrackNum: 1
-SongID: 11197279 ;; Name: My heart's in the Highlands ;; ArtistName: Polyphony ;; AlbumName: Triodion ;; AlbumID: 1932329 ;; ArtistID: 203807 ;; TrackNum: 0
-SongID: 22521859 ;; Name: The Royal We ;; ArtistName: Silversun Pickups ;; AlbumName: Swoon ;; AlbumID: 3176945 ;; ArtistID: 4014 ;; TrackNum: 2
-SongID: 52185 ;; Name: Breakadawn ;; ArtistName: De La Soul ;; AlbumName: Buhloone Mind State ;; AlbumID: 141346 ;; ArtistID: 1954 ;; TrackNum: 13
-SongID: 7146428 ;; Name: I'll Fly Away ;; ArtistName: Kanye West ;; AlbumName: The College Dropout ;; AlbumID: 224054 ;; ArtistID: 181 ;; TrackNum: None
-SongID: 854 ;; Name: Wildcat ;; ArtistName: Ratatat ;; AlbumName: Classics ;; AlbumID: 94812 ;; ArtistID: 151 ;; TrackNum: 4
-SongID: 29600 ;; Name: Seventeen Years ;; ArtistName: Ratatat ;; AlbumName: Classics ;; AlbumID: 94812 ;; ArtistID: 151 ;; TrackNum: 0
-SongID: 37894 ;; Name: Gettysburg ;; ArtistName: Ratatat ;; AlbumName: Classics ;; AlbumID: 94812 ;; ArtistID: 151 ;; TrackNum: 3
-SongID: 24246046 ;; Name: After Hours (Live From Union Chapel, London) ;; ArtistName: We Are Scientists ;; AlbumName: Live From Union Chapel, London ;; AlbumID: 3882479 ;; ArtistID: 4210 ;; TrackNum: 6
-SongID: 14543252 ;; Name: Cortez the Killer ;; ArtistName: Neil Young ;; AlbumName: Decade (disc 2) ;; AlbumID: 2363897 ;; ArtistID: 2272 ;; TrackNum: 17
-SongID: 2904876 ;; Name: Pink Frost ;; ArtistName: The Chills ;; AlbumName: Kaleidoscope World ;; AlbumID: 556497 ;; ArtistID: 7123 ;; TrackNum: None
-SongID: 23166711 ;; Name: Son of Perdition ;; ArtistName: Hollenthon ;; AlbumName: Opus Magnum ;; AlbumID: 3465707 ;; ArtistID: 183000 ;; TrackNum: 3
-SongID: 21175107 ;; Name: Summertime Clothes ;; ArtistName: Animal Collective ;; AlbumName: Merriweather Post Pavilion (disc 1) ;; AlbumID: 3057108 ;; ArtistID: 4029 ;; TrackNum: 4
-SongID: 23898540 ;; Name: Knife ;; ArtistName: Acrnym ;; AlbumName: Flowers ;; AlbumID: 3783915 ;; ArtistID: 168649 ;; TrackNum: 10
-SongID: 603184 ;; Name: Into My Arms ;; ArtistName: Nick Cave & The Bad Seeds ;; AlbumName: The Boatman's Call ;; AlbumID: 2466355 ;; ArtistID: 5929 ;; TrackNum: 0
-SongID: 10579704 ;; Name: Girl in the Slayer Jacket ;; ArtistName: Pig Destroyer ;; AlbumName: Phantom Limb ;; AlbumID: 229613 ;; ArtistID: 1166774 ;; TrackNum: 0
-SongID: 21872241 ;; Name: A Passage to Bangkok ;; ArtistName: Rush ;; AlbumName: 2112 ;; AlbumID: 1103744 ;; ArtistID: 402377 ;; TrackNum: 0
-SongID: 23352070 ;; Name: When I Look At You ;; ArtistName: Emalkay ;; AlbumName: When I Look At You ;; AlbumID: 3558511 ;; ArtistID: 146834 ;; TrackNum: 1
-SongID: 22961830 ;; Name: Crystalised ;; ArtistName: The xx ;; AlbumName: XX ;; AlbumID: 3465425 ;; ArtistID: 1164089 ;; TrackNum: 3
-SongID: 13923211 ;; Name: Horse With No Name ;; ArtistName: America ;; AlbumName: Bacobens Rock Top 500 ;; AlbumID: 202240 ;; ArtistID: 2817 ;; TrackNum: None
-SongID: 13067668 ;; Name: Vi sitter i Ventrilo och spelar DotA ;; ArtistName: Basshunter ;; AlbumName: LOL <(^^,)> ;; AlbumID: 1155096 ;; ArtistID: 402916 ;; TrackNum: 1
-SongID: 546949 ;; Name: Damaged ;; ArtistName: Assemblage 23 ;; AlbumName: Meta ;; AlbumID: 173047 ;; ArtistID: 45245 ;; TrackNum: 6
-SongID: 7853 ;; Name: Paranoiattack ;; ArtistName: The Faint ;; AlbumName: Wet From Birth ;; AlbumID: 109709 ;; ArtistID: 1532 ;; TrackNum: 6
-SongID: 166604 ;; Name: Such Great Heights ;; ArtistName: The Postal Service ;; AlbumName: Give Up ;; AlbumID: 2510956 ;; ArtistID: 2443 ;; TrackNum: 0
-SongID: 116443 ;; Name: Erotomania ;; ArtistName: Dream Theater ;; AlbumName: Awake ;; AlbumID: 97951 ;; ArtistID: 1988 ;; TrackNum: 4
-SongID: 23128179 ;; Name: Vlad the Impaler ;; ArtistName: Kasabian ;; AlbumName: West Ryder Pauper Lunatic Asylum ;; AlbumID: 3305940 ;; ArtistID: 3556 ;; TrackNum: 8
-SongID: 8172769 ;; Name: Lady Don't Tek No ;; ArtistName: Latyrx ;; AlbumName: Solesides Greatest Bumps (1 of 2) ;; AlbumID: 1265212 ;; ArtistID: 18470 ;; TrackNum: 11
-SongID: 12733296 ;; Name: Inner City Pressure ;; ArtistName: Flight of the Conchords ;; AlbumName: Music From Season 1 ;; AlbumID: 2236894 ;; ArtistID: 401918 ;; TrackNum: 0
-SongID: 7289465 ;; Name: Jenny ;; ArtistName: Flight of the Conchords ;; AlbumName: HBO One Night Stand ;; AlbumID: 1086202 ;; ArtistID: 401918 ;; TrackNum: 0
-SongID: 7156495 ;; Name: Istanbul (Not Constantinople) ;; ArtistName: They Might Be Giants ;; AlbumName: A User's Guide to They Might Be Giants ;; AlbumID: 1604088 ;; ArtistID: 2462 ;; TrackNum: 7
-SongID: 20787898 ;; Name: Lakeside ;; ArtistName: BLK JKS ;; AlbumName: Paste Magazine Sampler #45: August 2008 ;; AlbumID: 2853657 ;; ArtistID: 688975 ;; TrackNum: 1
-SongID: 3602027 ;; Name: Grunge 3 (Dieselboy & Kaos & Karl K Remix) ;; ArtistName: Bad Company Uk ;; AlbumName: Dieselboy Present The Human Resource ;; AlbumID: 705927 ;; ArtistID: 43164 ;; TrackNum: 10
-SongID: 25756953 ;; Name: Wind Blows ;; ArtistName: Yukon Blonde ;; AlbumName: Yukon Blonde ;; AlbumID: 4481766 ;; ArtistID: 1312807 ;; TrackNum: 0
-SongID: 27189 ;; Name: Sister Ray ;; ArtistName: The Velvet Underground ;; AlbumName: Pitchfork's 200 Greatest Songs of the 1960s ;; AlbumID: 248350 ;; ArtistID: 4058 ;; TrackNum: 14
-SongID: 989679 ;; Name: Uncommon Valor: A Vietnam Story ;; ArtistName: Jedi Mind Tricks ;; AlbumName: Servants In Heaven, Kings In Hell ;; AlbumID: 120836 ;; ArtistID: 3535 ;; TrackNum: 4
-SongID: 1144558 ;; Name: Heal It Up ;; ArtistName: Concrete Blonde ;; AlbumName: Mexican Moon ;; AlbumID: 380112 ;; ArtistID: 18106 ;; TrackNum: 3
-SongID: 1290018 ;; Name: The Crown Of Sympathy ;; ArtistName: My Dying Bride ;; AlbumName: Turn Loose The Swans ;; AlbumID: 403203 ;; ArtistID: 45833 ;; TrackNum: 5
-SongID: 22099067 ;; Name: Prehistoric Dog ;; ArtistName: Red Fang ;; AlbumName: Sxsw 2009 Showcasing Artists ;; AlbumID: 3437141 ;; ArtistID: 1055158 ;; TrackNum: 0
-SongID: 24434719 ;; Name: Maps ;; ArtistName: Yeah Yeah Yeahs ;; AlbumName: Fever to Tell ;; AlbumID: 1105345 ;; ArtistID: 1640 ;; TrackNum: 9
-SongID: 2180709 ;; Name: You Can Call Me Al ;; ArtistName: Simon, Paul ;; AlbumName: Graceland ;; AlbumID: 121607 ;; ArtistID: 26263 ;; TrackNum: 6
-SongID: 9583301 ;; Name: How Blue Can You Get? ;; ArtistName: B.B. King ;; AlbumName: The Best Of BB King ;; AlbumID: 305374 ;; ArtistID: 403099 ;; TrackNum: 3
-SongID: 11924546 ;; Name: (I Don't Want to Go to) Chelsea ;; ArtistName: Elvis Costello ;; AlbumName: Taking Liberties ;; AlbumID: 1824883 ;; ArtistID: 3481 ;; TrackNum: 14
-SongID: 24246046 ;; Name: After Hours (Live From Union Chapel, London) ;; ArtistName: We Are Scientists ;; AlbumName: Live From Union Chapel, London ;; AlbumID: 3882479 ;; ArtistID: 4210 ;; TrackNum: 6
-SongID: 3181766 ;; Name: American Girl ;; ArtistName: Tom Petty & The Heart Breakers ;; AlbumName: Tom Petty & The Heartbreakers' Greatest Hits ;; AlbumID: 260230 ;; ArtistID: 695 ;; TrackNum: 1
-SongID: 56122 ;; Name: Riders On The Storm ;; ArtistName: Doors ;; AlbumName: Greatesthits ;; AlbumID: 101074 ;; ArtistID: 4626 ;; TrackNum: None
-SongID: 154602 ;; Name: Redemption Song ;; ArtistName: Bob Marley & The Wailers ;; AlbumName: Legend: The Best of Bob Marley and the Wailers ;; AlbumID: 97295 ;; ArtistID: 848 ;; TrackNum: 11
-SongID: 10586815 ;; Name: Living for the City ;; ArtistName: Stevie Wonder ;; AlbumName: The Definitive Collection ;; AlbumID: 126456 ;; ArtistID: 463 ;; TrackNum: 11
-SongID: 717700 ;; Name: Shakedown Street ;; ArtistName: Grateful Dead ;; AlbumName: Shakedown Street ;; AlbumID: 232256 ;; ArtistID: 2068 ;; TrackNum: 3
-SongID: 2180313 ;; Name: London Calling ;; ArtistName: Clash The ;; AlbumName: London Calling ;; AlbumID: 122336 ;; ArtistID: 52283 ;; TrackNum: 1
-SongID: 4365400 ;; Name: Suffragate City ;; ArtistName: David Bowie ;; AlbumName: Best Of Bowie ;; AlbumID: 124056 ;; ArtistID: 940 ;; TrackNum: None
-SongID: 176455 ;; Name: Life During Wartime ;; ArtistName: Talking Heads ;; AlbumName: Stop Making Sense ;; AlbumID: 183991 ;; ArtistID: 336 ;; TrackNum: 8
-SongID: 416478 ;; Name: Fat Bottomed Girls ;; ArtistName: Queen ;; AlbumName: Queen Rocks ;; AlbumID: 235811 ;; ArtistID: 2324 ;; TrackNum: 9
-SongID: 19716 ;; Name: I Need More Love ;; ArtistName: Robert Randolph & The Family Band ;; AlbumName: Unclassified ;; AlbumID: 121856 ;; ArtistID: 3655 ;; TrackNum: 2
-SongID: 23220166 ;; Name: Convinced Of The Hex ;; ArtistName: The Flaming Lips ;; AlbumName: Embryonic ;; AlbumID: 3441596 ;; ArtistID: 1927 ;; TrackNum: 1
-SongID: 4026 ;; Name: Welcome To Jamrock ;; ArtistName: Damian Marley ;; AlbumName: Welcome To Jamrock ;; AlbumID: 107107 ;; ArtistID: 924 ;; TrackNum: 3
-SongID: 7701030 ;; Name: Dance with the Devil ;; ArtistName: Immortal Technique ;; AlbumName: Revolutionary, Volume 1 ;; AlbumID: 2378183 ;; ArtistID: 7937 ;; TrackNum: 11
-SongID: 37454 ;; Name: Epic Problem ;; ArtistName: Fugazi ;; AlbumName: The Argument ;; AlbumID: 130830 ;; ArtistID: 3994 ;; TrackNum: 4
-SongID: 24455283 ;; Name: 1901 ;; ArtistName: Phoenix ;; AlbumName: Wolfgang Amadeus Phoenix ;; AlbumID: 3120156 ;; ArtistID: 919306 ;; TrackNum: 2
-SongID: 14484495 ;; Name: Angel of Death ;; ArtistName: Slayer ;; AlbumName: Reign in Blood ;; AlbumID: 2360117 ;; ArtistID: 4178 ;; TrackNum: 1
-SongID: 7373594 ;; Name: 155 ;; ArtistName: +44 ;; AlbumName: When Your Heart Stops Beating ;; AlbumID: 1100546 ;; ArtistID: 392261 ;; TrackNum: 5
-SongID: 23766059 ;; Name: Loco Bananas ;; ArtistName: Big Punisher/Tony Sunshine ;; AlbumName: Langauge Is Fatal ;; AlbumID: 3748838 ;; ArtistID: 1249481 ;; TrackNum: 11
-SongID: 26018893 ;; Name: Percussion Gun ;; ArtistName: White Rabbits ;; AlbumName: Sirius XM U Sessions ;; AlbumID: 4575388 ;; ArtistID: 7002 ;; TrackNum: 2
-SongID: 23269645 ;; Name: Science Of Fear (Album Version) ;; ArtistName: The Temper Trap ;; AlbumName: Science Of Fear EP ;; AlbumID: 3513812 ;; ArtistID: 973606 ;; TrackNum: 1
-SongID: 7568762 ;; Name: Cliff Diving ;; ArtistName: +44 ;; AlbumName: When Your Heart Stops Beating ;; AlbumID: 1100546 ;; ArtistID: 392261 ;; TrackNum: 7
-SongID: 208689 ;; Name: '39 ;; ArtistName: Queen ;; AlbumName: A Night at the Opera [Bonus Tracks] ;; AlbumID: 191561 ;; ArtistID: 2324 ;; TrackNum: 5
-SongID: 23401183 ;; Name: Goodbye' Porkpie Hat ;; ArtistName: Santana, Jeff Beck & Steve Lukather ;; AlbumName: Lotus Gem - Live In Japan '87 (Disc 2) ;; AlbumID: 3580229 ;; ArtistID: 939548 ;; TrackNum: 7
-SongID: 24814142 ;; Name: Baby I'm Yours ;; ArtistName: Breakbot ;; AlbumName: Baby Im Yours ;; AlbumID: 4094502 ;; ArtistID: 375530 ;; TrackNum: 0
-SongID: 23681824 ;; Name: Stubb (A Dub) ;; ArtistName: Mr. Bungle ;; AlbumName:  ;; AlbumID: 1409442 ;; ArtistID: 402535 ;; TrackNum: 0
-SongID: 23430394 ;; Name: Supernova ;; ArtistName: 9mm Parabellum Bullet ;; AlbumName: Supernova/Wanderland ;; AlbumID: 3592632 ;; ArtistID: 649779 ;; TrackNum: 1
-SongID: 25943949 ;; Name: Change ;; ArtistName: Monkey Majik + Yoshida Brothers ;; AlbumName: Change ;; AlbumID: 4545484 ;; ArtistID: 578547 ;; TrackNum: 1
-SongID: 7608072 ;; Name: Man in a Shed ;; ArtistName: Nick Drake ;; AlbumName: Five Leaves Left ;; AlbumID: 114760 ;; ArtistID: 1287 ;; TrackNum: 8
-SongID: 8604439 ;; Name: Ghosts ;; ArtistName: Laura Marling ;; AlbumName: Alas I Cannot Swim ;; AlbumID: 1359200 ;; ArtistID: 230744 ;; TrackNum: 0
-SongID: 15179 ;; Name: Blue Valentines ;; ArtistName: Tom Waits ;; AlbumName: Blue Valentine ;; AlbumID: 118288 ;; ArtistID: 1591 ;; TrackNum: 10
-SongID: 23379796 ;; Name: They Provide The Paint ;; ArtistName: Bandits of the Acoustic Revolution ;; AlbumName: A Call to Arms ;; AlbumID: 1653208 ;; ArtistID: 430039 ;; TrackNum: 5
-SongID: 25770505 ;; Name: Coward ;; ArtistName: Annihilator ;; AlbumName: Self Titled ;; AlbumID: 4486330 ;; ArtistID: 10620 ;; TrackNum: 2
-SongID: 25112729 ;; Name: one of them days ;; ArtistName: Sonreal ;; AlbumName:  ;; AlbumID: 4236402 ;; ArtistID: 1376112 ;; TrackNum: 0
-SongID: 8202104 ;; Name: San Francisco Knights ;; ArtistName: People Under the Stairs ;; AlbumName: The Next Step ;; AlbumID: 1273252 ;; ArtistID: 453218 ;; TrackNum: 8
-SongID: 11816670 ;; Name: Acid Raindrops ;; ArtistName: People Under the Stairs ;; AlbumName: O.S.T. ;; AlbumID: 1273225 ;; ArtistID: 453218 ;; TrackNum: 18
-SongID: 7887766 ;; Name: Move on Up ;; ArtistName: Curtis Mayfield ;; AlbumName: Shared ;; AlbumID: 3440749 ;; ArtistID: 72 ;; TrackNum: 1
-SongID: 640838 ;; Name: A Sunday Smile ;; ArtistName: Beirut ;; AlbumName: The Flying Club Cup ;; AlbumID: 258062 ;; ArtistID: 3425 ;; TrackNum: 3
-SongID: 23448860 ;; Name: Skinned Knees & Gapped Teeth ;; ArtistName: Dear and the Headlights ;; AlbumName: Small Steps, Heavy Hooves ;; AlbumID: 1643069 ;; ArtistID: 471692 ;; TrackNum: 9
-SongID: 23191237 ;; Name: Dirty Black Summer ;; ArtistName: Danzig ;; AlbumName: Danzig Iii: How the Gods Kill ;; AlbumID: 421447 ;; ArtistID: 3463 ;; TrackNum: 5
-SongID: 14745990 ;; Name: Waiting for the Miracle ;; ArtistName: Leonard Cohen ;; AlbumName: The Essential Leonard Cohen (disc 2) ;; AlbumID: 135036 ;; ArtistID: 3797 ;; TrackNum: 7
-SongID: 23231768 ;; Name: Only Shallow ;; ArtistName: My Bloody Valentine ;; AlbumName: Loveless ;; AlbumID: 132501 ;; ArtistID: 4950 ;; TrackNum: 1
-SongID: 29495 ;; Name: Gouge Away ;; ArtistName: Pixies ;; AlbumName: Wave of Mutilation: Best of Pixies ;; AlbumID: 1583212 ;; ArtistID: 3641 ;; TrackNum: 11
-SongID: 10288018 ;; Name: Farmer in the City ;; ArtistName: Scott Walker ;; AlbumName: Tilt ;; AlbumID: 279697 ;; ArtistID: 4066 ;; TrackNum: 1
-SongID: 18790225 ;; Name: Past Is Prologue ;; ArtistName: Tycho ;; AlbumName: Past Is Prologue ;; AlbumID: 190032 ;; ArtistID: 20855 ;; TrackNum: 8
-SongID: 1556136 ;; Name: God Bless Our Dead Marines ;; ArtistName: A Silver Mt Zion ;; AlbumName: Horses In The Sky ;; AlbumID: 281892 ;; ArtistID: 26548 ;; TrackNum: 1
-SongID: 23217727 ;; Name: Slip Inside This House ;; ArtistName: Primal Scream ;; AlbumName: Screamadelica ;; AlbumID: 162854 ;; ArtistID: 8057 ;; TrackNum: 2
-SongID: 21882173 ;; Name: The Talking Drum ;; ArtistName: King Crimson ;; AlbumName: Larks' Tongues in Aspic ;; AlbumID: 2362113 ;; ArtistID: 4049 ;; TrackNum: 5
-SongID: 2874520 ;; Name: Hush ;; ArtistName: Deep Purple ;; AlbumName: 30: Very Best Of ;; AlbumID: 635352 ;; ArtistID: 3465 ;; TrackNum: 1
-SongID: 23688239 ;; Name: Gediel ;; ArtistName: Bar Kokhba Sextet ;; AlbumName: Lucifer: Book of Angels, Vol. 10 ;; AlbumID: 3717999 ;; ArtistID: 549806 ;; TrackNum: 4
-SongID: 698660 ;; Name: Paperhouse ;; ArtistName: Can ;; AlbumName: Tago Mago ;; AlbumID: 294371 ;; ArtistID: 28633 ;; TrackNum: 1
-SongID: 164736 ;; Name: Arch Carrier ;; ArtistName: Autechre ;; AlbumName: LP5 ;; AlbumID: 178992 ;; ArtistID: 17957 ;; TrackNum: 10
-SongID: 24658329 ;; Name: Baby's on Fire ;; ArtistName: Sammy Hagar ;; AlbumName: Standing Hampton ;; AlbumID: 250036 ;; ArtistID: 2363 ;; TrackNum: 2
-SongID: 551776 ;; Name: Baby's On Fire ;; ArtistName: Brian Eno ;; AlbumName: Here Come The Warm Jets ;; AlbumID: 265649 ;; ArtistID: 14532 ;; TrackNum: 3
-SongID: 11622231 ;; Name: Under The Milky Way (Acoustic) ;; ArtistName: The Church ;; AlbumName: Starfish ;; AlbumID: 230645 ;; ArtistID: 5843 ;; TrackNum: 8
-SongID: 167574 ;; Name: Sky Starts Falling ;; ArtistName: Doves ;; AlbumName: Some Cities ;; AlbumID: 163362 ;; ArtistID: 4133 ;; TrackNum: 10
-SongID: 23510150 ;; Name: Ambling Alp (Memory Tapes remix) ;; ArtistName: Yeasayer ;; AlbumName: Ambling Alp ;; AlbumID: 3632881 ;; ArtistID: 7085 ;; TrackNum: 3
-SongID: 9524945 ;; Name: Let's Dance to Joy Division ;; ArtistName: The Wombats ;; AlbumName: The Wombats Proudly Present: A Guide to Love, Loss & Desperation ;; AlbumID: 1559699 ;; ArtistID: 6980 ;; TrackNum: 8
-SongID: 11290591 ;; Name: Yes! Yes! Yes! ;; ArtistName: Hey Rosetta! ;; AlbumName: Plan Your Escape ;; AlbumID: 443120 ;; ArtistID: 114945 ;; TrackNum: 3
-SongID: 23259255 ;; Name: Ain't Nothing Wrong With That (Album Version) ;; ArtistName: Robert Randolph & The Family Band ;; AlbumName: Colorblind ;; AlbumID: 276461 ;; ArtistID: 3655 ;; TrackNum: 1
-SongID: 23432550 ;; Name: Karma Police ;; ArtistName: Radiohead ;; AlbumName: Karma Police ;; AlbumID: 1585039 ;; ArtistID: 15 ;; TrackNum: 1
-SongID: 10051229 ;; Name: Basket Case ;; ArtistName: Green Day ;; AlbumName: International Superhits! ;; AlbumID: 1090374 ;; ArtistID: 401441 ;; TrackNum: 5
-SongID: 7407830 ;; Name: Leader Of Men ;; ArtistName: Nickelback ;; AlbumName: The State ;; AlbumID: 1092382 ;; ArtistID: 401899 ;; TrackNum: 0
-SongID: 2539516 ;; Name: Thrice All American ;; ArtistName: Neko Case ;; AlbumName: Furnace Room Lullaby ;; AlbumID: 188877 ;; ArtistID: 3607 ;; TrackNum: 7
-SongID: 9145604 ;; Name: Statement ;; ArtistName: Boris ;; AlbumName: Smile ;; AlbumID: 1057915 ;; ArtistID: 19934 ;; TrackNum: 0
-SongID: 7299630 ;; Name: Web in Front ;; ArtistName: Archers of Loaf ;; AlbumName: Icky Mettle ;; AlbumID: 1087524 ;; ArtistID: 402476 ;; TrackNum: 0
-SongID: 19399 ;; Name: You Enjoy Myself ;; ArtistName: Phish ;; AlbumName: Junta Disc 1 ;; AlbumID: 121722 ;; ArtistID: 47 ;; TrackNum: 2
-SongID: 25906735 ;; Name: Whatever Happened to the Girl in Me? ;; ArtistName: Ike Reilly ;; AlbumName: Sparkle in the Finish ;; AlbumID: 4533033 ;; ArtistID: 63398 ;; TrackNum: 0
-SongID: 25936703 ;; Name: Mind Flowers ;; ArtistName: Ultimate Spinach ;; AlbumName: Behold & See ;; AlbumID: 4543341 ;; ArtistID: 467072 ;; TrackNum: 4
-SongID: 23063531 ;; Name: Little Lion Man ;; ArtistName: Mumford & Sons ;; AlbumName: Blalock's Indie/Rock Playlist: July (2009) ;; AlbumID: 3408667 ;; ArtistID: 658595 ;; TrackNum: 62
-SongID: 24537779 ;; Name: Stella ;; ArtistName: Kashiwa Daisuke ;; AlbumName: Program Music I ;; AlbumID: 1546235 ;; ArtistID: 526268 ;; TrackNum: 1
-SongID: 24443771 ;; Name: 23 ;; ArtistName: Jimmy Eat World ;; AlbumName: Futures ;; AlbumID: 130541 ;; ArtistID: 1128 ;; TrackNum: 11
-SongID: 22621730 ;; Name: Bin Laden ;; ArtistName: Immortal Technique ;; AlbumName: Revolutionary Vol. 2 ;; AlbumID: 177826 ;; ArtistID: 7937 ;; TrackNum: 32
-SongID: 2711685 ;; Name: Daylight ;; ArtistName: Aesop Rock ;; AlbumName: Daylight ;; AlbumID: 106236 ;; ArtistID: 758 ;; TrackNum: 1
-SongID: 841490 ;; Name: Shadow Business ;; ArtistName: Jedi Mind Tricks ;; AlbumName: Servants In Heaven, Kings In Hell ;; AlbumID: 120836 ;; ArtistID: 3535 ;; TrackNum: 10
-SongID: 23174727 ;; Name: The Good Doctor ;; ArtistName: The Protomen ;; AlbumName: Act II: The Father Of Death ;; AlbumID: 3467706 ;; ArtistID: 138848 ;; TrackNum: 2
-SongID: 24743438 ;; Name: Zocalo (Feat. Gabriel & Dresden) ;; ArtistName: Armin van Buuren ;; AlbumName: Shivers ;; AlbumID: 1126282 ;; ArtistID: 404019 ;; TrackNum: 5
-SongID: 9151837 ;; Name: Smells Like Content ;; ArtistName: The Books ;; AlbumName: Lost and Safe ;; AlbumID: 1475861 ;; ArtistID: 18886 ;; TrackNum: 0
-SongID: 17201735 ;; Name: Everything (Big Room mix) ;; ArtistName: Kaskade ;; AlbumName: House of Om: Kaskade ;; AlbumID: 2563081 ;; ArtistID: 4496 ;; TrackNum: 7
-SongID: 63125 ;; Name: Orion ;; ArtistName: Metallica ;; AlbumName: Master Of Puppets ;; AlbumID: 124608 ;; ArtistID: 676 ;; TrackNum: 7
-SongID: 23607618 ;; Name: Hljomalind ;; ArtistName: Sigur Rós ;; AlbumName: Hvarf ;; AlbumID: 831343 ;; ArtistID: 1426 ;; TrackNum: 2
-SongID: 11003131 ;; Name: Take 5 ;; ArtistName: Dave Brubeck ;; AlbumName:  ;; AlbumID: 1386579 ;; ArtistID: 1948 ;; TrackNum: 0
-SongID: 25229186 ;; Name: Rude And Reckless ;; ArtistName: Slackers ;; AlbumName: Red Light ;; AlbumID: 141638 ;; ArtistID: 4700 ;; TrackNum: 11
-SongID: 8201502 ;; Name: Maybe Tomorrow ;; ArtistName: Stereophonics ;; AlbumName: Maybe Tomorrow ;; AlbumID: 1812575 ;; ArtistID: 401401 ;; TrackNum: 2
-SongID: 23534111 ;; Name: blackend ;; ArtistName: Metallica ;; AlbumName: ... And Justice for All ;; AlbumID: 3485679 ;; ArtistID: 676 ;; TrackNum: 0
-SongID: 9292506 ;; Name: Peace Sells ;; ArtistName: Megadeth ;; AlbumName: Peace Sells... But Who's Buying? ;; AlbumID: 1506499 ;; ArtistID: 10776 ;; TrackNum: 3
-SongID: 23087533 ;; Name: Hate Worldwide ;; ArtistName: SLAYER ;; AlbumName: World Painted Blood ;; AlbumID: 3418046 ;; ArtistID: 434775 ;; TrackNum: 0
-SongID: 14529138 ;; Name: Caught in a Mosh ;; ArtistName: Anthrax ;; AlbumName: Among the Living ;; AlbumID: 2363032 ;; ArtistID: 10705 ;; TrackNum: 2
-SongID: 22498040 ;; Name: Amnesia ;; ArtistName: Blu ;; AlbumName: HerFavoriteColo(u)r ;; AlbumID: 3237570 ;; ArtistID: 1132207 ;; TrackNum: 2
-SongID: 4514558 ;; Name: In The Summertime ;; ArtistName: Mungo Jerry ;; AlbumName: The Best Of Mungo Jerry ;; AlbumID: 802151 ;; ArtistID: 3601 ;; TrackNum: None
-SongID: 236878 ;; Name: Marquee Moon ;; ArtistName: Television ;; AlbumName: Marquee Moon ;; AlbumID: 198992 ;; ArtistID: 23056 ;; TrackNum: 4
-SongID: 25263534 ;; Name: Sabotage ;; ArtistName: Cancer Bats ;; AlbumName: Bears, Mayors, Scraps and Bones ;; AlbumID: 4280580 ;; ArtistID: 52351 ;; TrackNum: 0
-SongID: 231367 ;; Name: In My Time Of Dying ;; ArtistName: Led Zeppelin ;; AlbumName: Led Zeppelin ;; AlbumID: 113663 ;; ArtistID: 1180 ;; TrackNum: 10
-SongID: 8420289 ;; Name: Birthday Boys ;; ArtistName: Oysterhead ;; AlbumName: The Grand Pecking Order ;; AlbumID: 1182867 ;; ArtistID: 431192 ;; TrackNum: 0
-SongID: 6816445 ;; Name: This Corrosion ;; ArtistName: Sisters Of Mercy ;; AlbumName: A Slight Case Of Overbombing ;; AlbumID: 311248 ;; ArtistID: 38234 ;; TrackNum: None
-SongID: 22603294 ;; Name: Something Good Can Work ;; ArtistName: Two Door Cinema Club ;; AlbumName: Something Good Can Work ;; AlbumID: 3268147 ;; ArtistID: 1055805 ;; TrackNum: 1
-SongID: 26068451 ;; Name: Tell Her About It ;; ArtistName: Billy Joel ;; AlbumName: Greatest Hits Volume III ;; AlbumID: 1250035 ;; ArtistID: 1851 ;; TrackNum: 21
-SongID: 24434892 ;; Name: Just The Way You Are ;; ArtistName: Billy Joel ;; AlbumName: The Stranger ;; AlbumID: 111251 ;; ArtistID: 1851 ;; TrackNum: 3
-SongID: 11615140 ;; Name: Scarlet Begonias ;; ArtistName: Sublime ;; AlbumName: Gold (disc 1) ;; AlbumID: 2024423 ;; ArtistID: 1475 ;; TrackNum: 12
-SongID: 640889 ;; Name: Berlin ;; ArtistName: Black Rebel Motor Cycle Club ;; AlbumName: Baby 81 ;; AlbumID: 1114641 ;; ArtistID: 14718 ;; TrackNum: 0
-SongID: 24541939 ;; Name: Ain't No Sunshine (Single Version) ;; ArtistName: Bill Withers ;; AlbumName: Lean On Me: The Best of Bill Withers ;; AlbumID: 2396454 ;; ArtistID: 1849 ;; TrackNum: 1
-SongID: 22349624 ;; Name: The Queen's Rebuke / The Crossing ;; ArtistName: The Decemberists ;; AlbumName: The Hazards of Love ;; AlbumID: 3068562 ;; ArtistID: 1525 ;; TrackNum: 12
-SongID: 169328 ;; Name: Free Hand ;; ArtistName: Gentle Giant ;; AlbumName: Free Hand + Interview ;; AlbumID: 181024 ;; ArtistID: 10260 ;; TrackNum: None
-SongID: 4230268 ;; Name: Take My Picture ;; ArtistName: Filter ;; AlbumName: Filter ;; AlbumID: 527800 ;; ArtistID: 159 ;; TrackNum: None
-SongID: 28566 ;; Name: Ice Dogs ;; ArtistName: Man Man ;; AlbumName: Six Demon Bag ;; AlbumID: 126111 ;; ArtistID: 4157 ;; TrackNum: 13
-SongID: 26024947 ;; Name: Make  me wanna die ;; ArtistName: The Pretty Reckless ;; AlbumName: bvsiduhgd ;; AlbumID: 4577457 ;; ArtistID: 1231781 ;; TrackNum: 0
-SongID: 231352 ;; Name: Gallows Pole ;; ArtistName: Led Zeppelin ;; AlbumName: Led Zeppelin ;; AlbumID: 113663 ;; ArtistID: 1180 ;; TrackNum: 10
-SongID: 24617937 ;; Name: On Impulse ;; ArtistName: Animals As Leaders ;; AlbumName: Animals As Leaders ;; AlbumID: 3395037 ;; ArtistID: 1118101 ;; TrackNum: 4
-SongID: 11377877 ;; Name: Just Impolite ;; ArtistName: Plushgun ;; AlbumName: Plushgun ;; AlbumID: 1973780 ;; ArtistID: 226321 ;; TrackNum: 1
-SongID: 7319192 ;; Name: Hurt ;; ArtistName: Johnny Cash ;; AlbumName: American IV: The Man Comes Around ;; AlbumID: 1089529 ;; ArtistID: 439 ;; TrackNum: 2
-SongID: 25569207 ;; Name: Used To Get High ;; ArtistName: The John Butler Trio ;; AlbumName: Grand National ;; AlbumID: 149316 ;; ArtistID: 20926 ;; TrackNum: 6
-SongID: 25688101 ;; Name: She's On Fire ;; ArtistName: Train ;; AlbumName: Drops of Jupiter ;; AlbumID: 1225748 ;; ArtistID: 221 ;; TrackNum: 1
-SongID: 23427358 ;; Name: Leraine ;; ArtistName: Secede ;; AlbumName: Tryshasla ;; AlbumID: 3589775 ;; ArtistID: 9697 ;; TrackNum: 3
-SongID: 25322374 ;; Name: Rise To Find You ;; ArtistName: Stubborn All-Stars ;; AlbumName: Open Season ;; AlbumID: 4325887 ;; ArtistID: 615884 ;; TrackNum: 3
-SongID: 22911621 ;; Name: Quiet Little Voices ;; ArtistName: We Were Promised Jetpacks ;; AlbumName: These Four Walls ;; AlbumID: 3359726 ;; ArtistID: 537848 ;; TrackNum: 7
-SongID: 69354 ;; Name: Locomotive Breath ;; ArtistName: Jethro Tull ;; AlbumName: A Little Light Music ;; AlbumID: 172878 ;; ArtistID: 3537 ;; TrackNum: 17
-SongID: 24936234 ;; Name: Warrior ;; ArtistName: José James ;; AlbumName: Blackmagic ;; AlbumID: 4147341 ;; ArtistID: 527914 ;; TrackNum: 5
-SongID: 21681501 ;; Name: I Don't Care (feat. Adam Gontier of Three Days Grace) ;; ArtistName: Apocalyptica ;; AlbumName: I Don't Care (CDS) ;; AlbumID: 3021836 ;; ArtistID: 4228 ;; TrackNum: 1
-SongID: 24444893 ;; Name: Inside Out ;; ArtistName: Eve 6 ;; AlbumName: Eve 6 ;; AlbumID: 107354 ;; ArtistID: 1016 ;; TrackNum: 2
-SongID: 1182940 ;; Name: House Of The Rising Sun ;; ArtistName: The Animals ;; AlbumName: Retrospective ;; AlbumID: 298050 ;; ArtistID: 13640 ;; TrackNum: 1
-SongID: 3931817 ;; Name: Read My Mind ;; ArtistName: The Killers ;; AlbumName: Sam's Town ;; AlbumID: 1106860 ;; ArtistID: 583 ;; TrackNum: 0
-SongID: 632757 ;; Name: Too Young ;; ArtistName: Phoenix ;; AlbumName: United ;; AlbumID: 1360579 ;; ArtistID: 919306 ;; TrackNum: 2
-SongID: 9754027 ;; Name: Turn Me On (Original Mix) ;; ArtistName: Kevin Lyttle ;; AlbumName: Turn Me On ;; AlbumID: 435677 ;; ArtistID: 26941 ;; TrackNum: 3
-SongID: 1696640 ;; Name: September ;; ArtistName: Earth Wind & Fire ;; AlbumName: Greatest Hits ;; AlbumID: 1131787 ;; ArtistID: 2804 ;; TrackNum: 0
-SongID: 6354 ;; Name: Major Tom Coming Home ;; ArtistName: Peter Schilling ;; AlbumName: The Different Story (World of Lust and Crime) ;; AlbumID: 187171 ;; ArtistID: 1324 ;; TrackNum: 2
-SongID: 13694149 ;; Name: Space Oddity ;; ArtistName: David Bowie ;; AlbumName: Space Oddity ;; AlbumID: 107143 ;; ArtistID: 940 ;; TrackNum: 1
-SongID: 352777 ;; Name: Jenny Says ;; ArtistName: Cowboy Mouth ;; AlbumName: Are You With Me? ;; AlbumID: 214559 ;; ArtistID: 27295 ;; TrackNum: 1
-SongID: 276164 ;; Name: Fists Up ;; ArtistName: The Blow ;; AlbumName: Paper Television ;; AlbumID: 137867 ;; ArtistID: 6992 ;; TrackNum: 9
-SongID: 13974802 ;; Name: woodpeckers from mars ;; ArtistName: faith no more ;; AlbumName: the real thing ;; AlbumID: 2322582 ;; ArtistID: 420073 ;; TrackNum: 0
-SongID: 8011760 ;; Name: Tales of Brave Ulysses ;; ArtistName: Cream ;; AlbumName: Disraeli Gears ;; AlbumID: 120206 ;; ArtistID: 41 ;; TrackNum: 6
-SongID: 390978 ;; Name: Do You Feel Like We Do ;; ArtistName: Peter Frampton ;; AlbumName: Frampton's Camel ;; AlbumID: 231014 ;; ArtistID: 65 ;; TrackNum: 9
-SongID: 7608588 ;; Name: Your Hand in Mine ;; ArtistName: Explosions in the Sky ;; AlbumName: The Earth Is Not a Cold Dead Place ;; AlbumID: 1144571 ;; ArtistID: 401444 ;; TrackNum: 0
-SongID: 7292469 ;; Name: To Be Young (Is to Be Sad, Is to Be High) ;; ArtistName: Ryan Adams ;; AlbumName: Heartbreaker ;; AlbumID: 183441 ;; ArtistID: 107 ;; TrackNum: 0
-SongID: 2325814 ;; Name: Yellow ;; ArtistName: Coldplay ;; AlbumName: Yellow ;; AlbumID: 319584 ;; ArtistID: 61 ;; TrackNum: 1
-SongID: 23624693 ;; Name: Sonne ;; ArtistName: Rammstein ;; AlbumName: Mutter ;; AlbumID: 108707 ;; ArtistID: 198 ;; TrackNum: 3
-SongID: 10567998 ;; Name: Wrapped in Piano Strings ;; ArtistName: Radical Face ;; AlbumName: Ghost ;; AlbumID: 140433 ;; ArtistID: 7840 ;; TrackNum: 6
-SongID: 1099424 ;; Name: Fools Gold 4.15 ;; ArtistName: Stone Roses ;; AlbumName: Fools Gold 9.53 ;; AlbumID: 368456 ;; ArtistID: 50260 ;; TrackNum: None
-SongID: 24436125 ;; Name: Skinny Love ;; ArtistName: Bon Iver ;; AlbumName: For Emma, Forever Ago ;; AlbumID: 683840 ;; ArtistID: 220454 ;; TrackNum: 3
-SongID: 3203127 ;; Name: Sly ;; ArtistName: The Cat Empire ;; AlbumName: Two Shoes ;; AlbumID: 129430 ;; ArtistID: 4477 ;; TrackNum: 1
-SongID: 63483 ;; Name: Dramamine ;; ArtistName: Modest Mouse ;; AlbumName: This is a long drive for someone with nothing to think abou ;; AlbumID: 410397 ;; ArtistID: 2246 ;; TrackNum: 1
-SongID: 14182844 ;; Name: Black Cadillac ;; ArtistName: Modest Mouse ;; AlbumName: Good News for People Who Love Bad News ;; AlbumID: 114377 ;; ArtistID: 2246 ;; TrackNum: 0
-SongID: 13590700 ;; Name: Short Skirt/Long Jacket ;; ArtistName: CAKE ;; AlbumName: Short Skirt/Long Jacket ;; AlbumID: 448959 ;; ArtistID: 405212 ;; TrackNum: 1
-SongID: 7167406 ;; Name: Susan's House ;; ArtistName: Eels ;; AlbumName: Beautiful Freak ;; AlbumID: 172375 ;; ArtistID: 2002 ;; TrackNum: None
-SongID: 21882687 ;; Name: Epitaph ;; ArtistName: King Crimson ;; AlbumName: Condensed 21st Century Guide to King Crimson (1969-2003) (disc 1) ;; AlbumID: 2832656 ;; ArtistID: 4049 ;; TrackNum: 2
-SongID: 22774 ;; Name: Right In Two ;; ArtistName: Tool ;; AlbumName: 10000 Days ;; AlbumID: 124442 ;; ArtistID: 3848 ;; TrackNum: 10
-SongID: 10286695 ;; Name: We Own the Sky ;; ArtistName: M83 ;; AlbumName: Saturdays = Youth ;; AlbumID: 1064451 ;; ArtistID: 17859 ;; TrackNum: 7
-SongID: 25044496 ;; Name: Hoop and Swan ;; ArtistName: Forgetters ;; AlbumName: Charlotte NC 14DEC09 The Milestone ;; AlbumID: 4202202 ;; ArtistID: 1367949 ;; TrackNum: 0
-SongID: 2711685 ;; Name: Daylight ;; ArtistName: Aesop Rock ;; AlbumName: Daylight ;; AlbumID: 106236 ;; ArtistID: 758 ;; TrackNum: 1
-SongID: 231377 ;; Name: In The Light ;; ArtistName: Led Zeppelin ;; AlbumName: Led Zeppelin ;; AlbumID: 113663 ;; ArtistID: 1180 ;; TrackNum: 10
-SongID: 23174746 ;; Name: You and I (Deadmau5 Mix) ;; ArtistName: Medina ;; AlbumName: 20090801-outaTiME, clubbers-vol.1 ;; AlbumID: 3468052 ;; ArtistID: 352235 ;; TrackNum: 7
-SongID: 47274 ;; Name: Gold Soundz ;; ArtistName: Pavement ;; AlbumName: Crooked Rain Crooked Rain: LA's Desert Origins ;; AlbumID: 136934 ;; ArtistID: 4965 ;; TrackNum: 1
-SongID: 7798798 ;; Name: Staring at the Sun ;; ArtistName: TV on the Radio ;; AlbumName: Desperate Youth, Blood Thirsty Babes ;; AlbumID: 1136178 ;; ArtistID: 412105 ;; TrackNum: 2
-SongID: 3650725 ;; Name: BANGFEST ;; ArtistName: Ludachrist ;; AlbumName: BANGFEST ;; AlbumID: 710705 ;; ArtistID: 231862 ;; TrackNum: None
-SongID: 1585068 ;; Name: Baba O Reiley ;; ArtistName: The Who ;; AlbumName: Baba O'reiley ;; AlbumID: 124919 ;; ArtistID: 54 ;; TrackNum: None
-SongID: 274344 ;; Name: Welcome Home, Son ;; ArtistName: Radical Face ;; AlbumName: Ghost ;; AlbumID: 140433 ;; ArtistID: 7840 ;; TrackNum: None
-SongID: 6183096 ;; Name: Touch Of Grey ;; ArtistName: Greatful Dead ;; AlbumName: In The Dark ;; AlbumID: 409287 ;; ArtistID: 53513 ;; TrackNum: 1
-SongID: 941068 ;; Name: Radio Nowhere ;; ArtistName: Bruce Springsteen ;; AlbumName: Radio Nowhere - Single ;; AlbumID: 342610 ;; ArtistID: 2532 ;; TrackNum: 1
-SongID: 23380262 ;; Name: Crazyhorse Mongoose ;; ArtistName: Galactic ;; AlbumName: Crazyhorse Mongoose ;; AlbumID: 120582 ;; ArtistID: 3502 ;; TrackNum: 3
-SongID: 15037992 ;; Name: Eriatarka ;; ArtistName: The Mars Volta ;; AlbumName: De-Loused in the Comatorium ;; AlbumID: 1231735 ;; ArtistID: 1540 ;; TrackNum: 6
-SongID: 7401903 ;; Name: Dvno ;; ArtistName: Justice ;; AlbumName: Justice ;; AlbumID: 207813 ;; ArtistID: 401337 ;; TrackNum: 9
-SongID: 23289167 ;; Name: Heavyweight ;; ArtistName: Infected Mushroom ;; AlbumName: Vicious Delicious ;; AlbumID: 117922 ;; ArtistID: 2590 ;; TrackNum: 4
-SongID: 1985240 ;; Name: Dead Wrestlers ;; ArtistName: Bis ;; AlbumName: Music for a Stranger World ;; AlbumID: 509152 ;; ArtistID: 6 ;; TrackNum: 1
-SongID: 3835497 ;; Name: Where Im From ;; ArtistName: Digable Planets ;; AlbumName: Digable Planets ;; AlbumID: 730493 ;; ArtistID: 3187 ;; TrackNum: None
-SongID: 22729918 ;; Name: Reggae Got Soul (with Ken Boothe and Marcia Griffiths) ;; ArtistName: Toots & The Maytals ;; AlbumName: True Love ;; AlbumID: 191644 ;; ArtistID: 4117 ;; TrackNum: 10
-SongID: 24440574 ;; Name: Why I Am ;; ArtistName: Dave Matthews Band ;; AlbumName: Big Whiskey and the GrooGrux King ;; AlbumID: 3387754 ;; ArtistID: 1950 ;; TrackNum: 5
-SongID: 5115422 ;; Name: Club Foot (radio edit) ;; ArtistName: Kasabian ;; AlbumName: Kasabian ;; AlbumID: 149352 ;; ArtistID: 3556 ;; TrackNum: None
-SongID: 541886 ;; Name: Retrovertigo ;; ArtistName: Mr Bungle ;; AlbumName: California ;; AlbumID: 182558 ;; ArtistID: 18593 ;; TrackNum: 3
-SongID: 140163 ;; Name: Finished Symphony ;; ArtistName: Hybrid ;; AlbumName: Wide Angle ;; AlbumID: 2409045 ;; ArtistID: 12283 ;; TrackNum: 0
-SongID: 11122793 ;; Name: Sleepy Head ;; ArtistName: Passion Pit ;; AlbumName: Pretty Penny ;; AlbumID: 1915746 ;; ArtistID: 620149 ;; TrackNum: 1
-SongID: 23938101 ;; Name: Mr. Indignant Erection ;; ArtistName: Crotchduster ;; AlbumName: Big Fat Box of Shit ;; AlbumID: 2492598 ;; ArtistID: 106219 ;; TrackNum: 5
-SongID: 7804485 ;; Name: Italian Leather Sofa ;; ArtistName: CAKE ;; AlbumName: Fashion Nugget ;; AlbumID: 1129508 ;; ArtistID: 405212 ;; TrackNum: 13
-SongID: 24529761 ;; Name: Hallelujah ;; ArtistName: Jeff Buckley ;; AlbumName: Grace ;; AlbumID: 120837 ;; ArtistID: 173 ;; TrackNum: 6
-SongID: 269678 ;; Name: Apparition ;; ArtistName: Rx Bandits ;; AlbumName: And The Battle Begun ;; AlbumID: 204014 ;; ArtistID: 1389 ;; TrackNum: 8
-SongID: 22169264 ;; Name: Gold Guns Girls ;; ArtistName: Metric ;; AlbumName: Fantasies ;; AlbumID: 3106124 ;; ArtistID: 1245 ;; TrackNum: 5
-SongID: 22051003 ;; Name: Heads Will Roll ;; ArtistName: Yeah Yeah Yeahs ;; AlbumName: It's Blitz! ;; AlbumID: 3109804 ;; ArtistID: 1640 ;; TrackNum: 2
-SongID: 1924938 ;; Name: Dirty Love ;; ArtistName: Frank Zappa ;; AlbumName: Strictly Commercial: The Best of Frank Zappa ;; AlbumID: 255216 ;; ArtistID: 3493 ;; TrackNum: 5
-SongID: 2816721 ;; Name: Sailing Shoes,Julia,Sneaking Through The Alley With Sally ;; ArtistName: Robert Palmer ;; AlbumName: Music MP3s ;; AlbumID: 627891 ;; ArtistID: 2620 ;; TrackNum: None
-SongID: 11806832 ;; Name: Doobie Ashtray ;; ArtistName: Devin the Dude ;; AlbumName: Just Tryin' ta Live ;; AlbumID: 2066849 ;; ArtistID: 430436 ;; TrackNum: 0
-SongID: 23543778 ;; Name: So Serious ;; ArtistName: Electric Light Orchestra ;; AlbumName: The Light Years ;; AlbumID: 300127 ;; ArtistID: 2005 ;; TrackNum: 6
-SongID: 30420 ;; Name: Yankee Bayonet (I Will Be Home Then) ;; ArtistName: The Decemberists ;; AlbumName: The Crane Wife ;; AlbumID: 110472 ;; ArtistID: 1525 ;; TrackNum: 3
-SongID: 24660173 ;; Name: To Hell With Good Intentions ;; ArtistName: mclusky ;; AlbumName: mclusky Do Dallas ;; AlbumID: 2284442 ;; ArtistID: 483940 ;; TrackNum: 8
-SongID: 7280683 ;; Name: Baby, We'll Be Fine ;; ArtistName: The National ;; AlbumName: Alligator ;; AlbumID: 132719 ;; ArtistID: 5035 ;; TrackNum: 6
-SongID: 8734540 ;; Name: The End of the Beginning ;; ArtistName: God Is an Astronaut ;; AlbumName: The End of the Beginning ;; AlbumID: 1382450 ;; ArtistID: 485789 ;; TrackNum: 0
-SongID: 35005 ;; Name: Thrash Unreal ;; ArtistName: Against Me ;; AlbumName: New Wave ;; AlbumID: 1085373 ;; ArtistID: 762 ;; TrackNum: 0
-SongID: 12600034 ;; Name: Borne On The FM Waves ;; ArtistName: Against Me! ;; AlbumName: New Wave ;; AlbumID: 1085373 ;; ArtistID: 401553 ;; TrackNum: 6
-SongID: 29494 ;; Name: Hey ;; ArtistName: Pixies ;; AlbumName: Doolittle ;; AlbumID: 126282 ;; ArtistID: 3641 ;; TrackNum: 13
+
+# Playlist ID: 31029876
+
+SongID: 2575365 ;; Name: Punk Rock Girl ;; ArtistName: The Dead Milkmen ;; AlbumName: Death Rides a Pale Cow: The Ultimate Collection ;; AlbumID: 117993 ;; ArtistID: 18902 ;; CoverArtFilename: 80b72dbb686d5448b307c3329ee27aa1.png ;; TrackNum: None
+SongID: 712583 ;; Name: Stuart ;; ArtistName: The Dead Milkmen ;; AlbumName: Beelzebubba ;; AlbumID: 184409 ;; ArtistID: 18902 ;; CoverArtFilename: db2c1ccd2ed43cce84d8552bda3d80fc.png ;; TrackNum: 3
+SongID: 24539127 ;; Name: Never Gonna Give You Up ;; ArtistName: Rick Astley ;; AlbumName: Whenever You Need Somebody ;; AlbumID: 100204 ;; ArtistID: 490 ;; CoverArtFilename: 6630a936ac9032ecda7d282e5e659026.png ;; TrackNum: 1
+SongID: 1124092 ;; Name: Oh Yeah ;; ArtistName: Yello ;; AlbumName: One Second ;; AlbumID: 341937 ;; ArtistID: 19203 ;; CoverArtFilename: 068fe9ffa570dc63906dbdd694118994.png ;; TrackNum: 9
+SongID: 24616997 ;; Name: Roundabout ;; ArtistName: Yes ;; AlbumName: Fragile ;; AlbumID: 147957 ;; ArtistID: 2517 ;; CoverArtFilename: 1e26436c1ca665fc9d8e2099641adbaa.png ;; TrackNum: 0
+SongID: 119344 ;; Name: The Gates Of Delirium ;; ArtistName: Yes ;; AlbumName: Relayer ;; AlbumID: 165527 ;; ArtistID: 2517 ;; CoverArtFilename: a6dc531bfb827ef2042bceefd6a7d7bd.png ;; TrackNum: 1
+SongID: 18267982 ;; Name: Just ;; ArtistName: Radiohead ;; AlbumName: Live Au Forum ;; AlbumID: 650714 ;; ArtistID: 15 ;; CoverArtFilename: 143320.jpg ;; TrackNum: 1
+SongID: 7287837 ;; Name: How to Disappear Completely ;; ArtistName: Radiohead ;; AlbumName: Kid A ;; AlbumID: 94807 ;; ArtistID: 15 ;; CoverArtFilename: 43a23e19ff310afbdfc1beed3930dd4a.png ;; TrackNum: 4
+SongID: 3895977 ;; Name: Jigsaw Falling Into Place ;; ArtistName: Radiohead ;; AlbumName: In Rainbows ;; AlbumID: 736315 ;; ArtistID: 15 ;; CoverArtFilename: 7529496.jpg ;; TrackNum: 9
+SongID: 24499878 ;; Name: The High Road ;; ArtistName: Broken Bells ;; AlbumName: Broken Bells ;; AlbumID: 3749506 ;; ArtistID: 1257602 ;; CoverArtFilename: 3749506.png ;; TrackNum: 1
+SongID: 7994115 ;; Name: Midnight In A Perfect World ;; ArtistName: DJ Shadow ;; AlbumName: Endtroducing ;; AlbumID: 188225 ;; ArtistID: 402467 ;; CoverArtFilename: 2a152a166f833e101236caa7c348f033.png ;; TrackNum: 0
+SongID: 7994116 ;; Name: Building Steam With A Grain Of Salt ;; ArtistName: DJ Shadow ;; AlbumName: Endtroducing ;; AlbumID: 188225 ;; ArtistID: 402467 ;; CoverArtFilename: 2a152a166f833e101236caa7c348f033.png ;; TrackNum: 0
+SongID: 21851310 ;; Name: Baba O'Reilly ;; ArtistName: The Who ;; AlbumName: The Who ;; AlbumID: 381628 ;; ArtistID: 54 ;; CoverArtFilename: 3219711.jpg ;; TrackNum: 0
+SongID: 24435529 ;; Name: Would ;; ArtistName: Alice in Chains ;; AlbumName: Dirt ;; AlbumID: 1090202 ;; ArtistID: 401969 ;; CoverArtFilename: 3198569.jpg ;; TrackNum: 13
+SongID: 182659 ;; Name: Goin' Out West ;; ArtistName: Tom Waits ;; AlbumName: Bone Machine ;; AlbumID: 139172 ;; ArtistID: 1591 ;; CoverArtFilename: b436572ab76fb0c4f4fd2d65637a1fa0.png ;; TrackNum: 10
+SongID: 182778 ;; Name: Singapore ;; ArtistName: Tom Waits ;; AlbumName: Rain Dogs ;; AlbumID: 186217 ;; ArtistID: 1591 ;; CoverArtFilename: b8f3794c0aa59073293e3870626b6351.png ;; TrackNum: 1
+SongID: 182828 ;; Name: 16 Shells From A Thirty-ought Six ;; ArtistName: Tom Waits ;; AlbumName: Swordfish Trombones ;; AlbumID: 186218 ;; ArtistID: 1591 ;; CoverArtFilename: 242d95e3a365970118ffd29b8c361cae.png ;; TrackNum: 5
+SongID: 182814 ;; Name: Step Right Up ;; ArtistName: Tom Waits ;; AlbumName: Small Change ;; AlbumID: 178331 ;; ArtistID: 1591 ;; CoverArtFilename: c2edec97d1d576877010d1cacc34d1fc.png ;; TrackNum: 2
+SongID: 518229 ;; Name: Shore Leave ;; ArtistName: Tom Waits ;; AlbumName: Beautiful Maladies: The Island Years ;; AlbumID: 258053 ;; ArtistID: 1591 ;; CoverArtFilename: 807876.jpg ;; TrackNum: 12
+SongID: 182799 ;; Name: Hoist That Rag ;; ArtistName: Tom Waits ;; AlbumName: Real Gone ;; AlbumID: 2695977 ;; ArtistID: 1591 ;; CoverArtFilename: 2822852.jpg ;; TrackNum: 2
+SongID: 7319192 ;; Name: Hurt ;; ArtistName: Johnny Cash ;; AlbumName: American IV: The Man Comes Around ;; AlbumID: 1089529 ;; ArtistID: 439 ;; CoverArtFilename: 3063941.jpg ;; TrackNum: 2
+SongID: 25368424 ;; Name: Sunday Mornin' Comin' Down ;; ArtistName: Johnny Cash ;; AlbumName: The Legend ;; AlbumID: 276071 ;; ArtistID: 439 ;; CoverArtFilename: 535323c28d87ceef233fa67486ffe91f.png ;; TrackNum: 19
+SongID: 8273575 ;; Name: Ragged Wood ;; ArtistName: Fleet Foxes ;; AlbumName: Fleet Foxes ;; AlbumID: 1100765 ;; ArtistID: 238252 ;; CoverArtFilename: 1100765.jpg ;; TrackNum: 3
+SongID: 7156917 ;; Name: Mykonos ;; ArtistName: Fleet Foxes ;; AlbumName: Sun Giant ;; AlbumID: 1060773 ;; ArtistID: 238252 ;; CoverArtFilename: 1060773.jpg ;; TrackNum: 4
+SongID: 13056482 ;; Name: White Winter Hymnal ;; ArtistName: Fleet Foxes ;; AlbumName: Fleet Foxes ;; AlbumID: 1100765 ;; ArtistID: 238252 ;; CoverArtFilename: 1100765.jpg ;; TrackNum: 2
+SongID: 9875287 ;; Name: Drops In The River ;; ArtistName: Fleet Foxes ;; AlbumName: Fleet Foxes [Special Edition] [Disc 2] ;; AlbumID: 3278724 ;; ArtistID: 238252 ;; CoverArtFilename: 3278724.jpg ;; TrackNum: 2
+SongID: 21637833 ;; Name: The Sound of Muzak ;; ArtistName: Porcupine Tree ;; AlbumName: In Absentia ;; AlbumID: 125157 ;; ArtistID: 4003 ;; CoverArtFilename: 680753b77f75238a8cf039d519a64560.png ;; TrackNum: 4
+SongID: 22957908 ;; Name: Stillness Is The Move ;; ArtistName: Dirty Projectors ;; AlbumName: Bitte Orca ;; AlbumID: 3372422 ;; ArtistID: 9072 ;; CoverArtFilename: None ;; TrackNum: 4
+SongID: 22400575 ;; Name: Brother In Arms ;; ArtistName: Dire Straits ;; AlbumName: Brothers In Arms ;; AlbumID: 124951 ;; ArtistID: 423 ;; CoverArtFilename: 5e78a58fc42f23e1064a955b30d9f411.png ;; TrackNum: 9
+SongID: 167347 ;; Name: Telegraph Road ;; ArtistName: Dire Straits ;; AlbumName: Love over Gold ;; AlbumID: 180349 ;; ArtistID: 423 ;; CoverArtFilename: 73cb91d4b0121f1f3c9c0237b3890e86.png ;; TrackNum: 1
+SongID: 14516612 ;; Name: Where I'm From ;; ArtistName: Digable Planets ;; AlbumName: Reachin' (A New Refutation of Time and Space) ;; AlbumID: 1619643 ;; ArtistID: 3187 ;; CoverArtFilename: 7eac1d51d206e4aa17126d997dc97e29.png ;; TrackNum: 3
+SongID: 8956305 ;; Name: Somewhere Over the Rainbow ;; ArtistName: Israel Kamakawiwoʻole ;; AlbumName: Facing Future ;; AlbumID: 1119847 ;; ArtistID: 401762 ;; CoverArtFilename: 13911721.jpg ;; TrackNum: 14
+SongID: 69354 ;; Name: Locomotive Breath ;; ArtistName: Jethro Tull ;; AlbumName: A Little Light Music ;; AlbumID: 172878 ;; ArtistID: 3537 ;; CoverArtFilename: 3219170.jpg ;; TrackNum: 17
+SongID: 22470450 ;; Name: Frank Sinatra ;; ArtistName: CAKE ;; AlbumName: Fashion Nugget [Clean] ;; AlbumID: 253220 ;; ArtistID: 405212 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 538399 ;; Name: New Orleans Is Sinking ;; ArtistName: Tragically Hip ;; AlbumName: Up To Here ;; AlbumID: 262619 ;; ArtistID: 36565 ;; CoverArtFilename: 028d1e8343b0b512002f11fb93469e98.png ;; TrackNum: None
+SongID: 1334776 ;; Name: Little Bones ;; ArtistName: The Tragically Hip ;; AlbumName: Road Apples ;; AlbumID: 262623 ;; ArtistID: 7086 ;; CoverArtFilename: 9c5fe22ff4b6cef57aaab084d2749de4.png ;; TrackNum: 1
+SongID: 24578199 ;; Name: Naveed ;; ArtistName: Our Lady Peace ;; AlbumName: Naveed ;; AlbumID: 156759 ;; ArtistID: 679 ;; CoverArtFilename: a6b2c9eedd8fe9a2d76afdfe5f18f6a5.png ;; TrackNum: 5
+SongID: 4607589 ;; Name: Stereo ;; ArtistName: Watchmen, The ;; AlbumName: Silent Radar ;; AlbumID: 243953 ;; ArtistID: 274200 ;; CoverArtFilename: 4607600.jpg ;; TrackNum: 1
+SongID: 4607580 ;; Name: Wiser ;; ArtistName: Watchmen, The ;; AlbumName: In The Trees ;; AlbumID: 271771 ;; ArtistID: 274200 ;; CoverArtFilename: 4607588.jpg ;; TrackNum: 4
+SongID: 14466474 ;; Name: Hyacinth House ;; ArtistName: The Doors ;; AlbumName: L.A. Woman ;; AlbumID: 1328183 ;; ArtistID: 2428 ;; CoverArtFilename: 16404810.jpg ;; TrackNum: 7
+SongID: 574613 ;; Name: Fly Like An Eagle ;; ArtistName: Steve Miller Band ;; AlbumName: Young Hearts: Complete Greatest Hits ;; AlbumID: 183803 ;; ArtistID: 2398 ;; CoverArtFilename: f99fb8eab02e92ffd5d814bc2729741f.png ;; TrackNum: 8
+SongID: 24436125 ;; Name: Skinny Love ;; ArtistName: Bon Iver ;; AlbumName: For Emma, Forever Ago ;; AlbumID: 683840 ;; ArtistID: 220454 ;; CoverArtFilename: 683840.jpg ;; TrackNum: 3
+SongID: 37248 ;; Name: All Caps ;; ArtistName: Madvillain ;; AlbumName: Madvillainy ;; AlbumID: 130801 ;; ArtistID: 18525 ;; CoverArtFilename: 130801.jpg ;; TrackNum: 20
+SongID: 23014383 ;; Name: Home ;; ArtistName: Edward Sharpe & The Magnetic Zeros ;; AlbumName: Up from Below (Bonus Track Version) ;; AlbumID: 3386841 ;; ArtistID: 1163185 ;; CoverArtFilename: None ;; TrackNum: 6
+SongID: 4043397 ;; Name: Hits From The Bong ;; ArtistName: Cypress Hill ;; AlbumName: Cypress Hill - Black Sunday ;; AlbumID: 752338 ;; ArtistID: 918 ;; CoverArtFilename: 4043401.jpg ;; TrackNum: None
+SongID: 7592425 ;; Name: Nature's Revenge ;; ArtistName: Skinny Puppy ;; AlbumName: Too Dark Park ;; AlbumID: 380812 ;; ArtistID: 12462 ;; CoverArtFilename: 16c541c1e867c4bb6c6a00887318c7f3.png ;; TrackNum: 0
+SongID: 16789463 ;; Name: When the Night Feels My Song ;; ArtistName: Bedouin Soundclash ;; AlbumName: Sounding a Mosaic ;; AlbumID: 1319194 ;; ArtistID: 439029 ;; CoverArtFilename: 1319194.jpg ;; TrackNum: 1
+SongID: 13298854 ;; Name: No One Knows ;; ArtistName: Queens of the Stone Age ;; AlbumName: Songs For The Deaf ;; AlbumID: 126321 ;; ArtistID: 401699 ;; CoverArtFilename: a696c6b49084f7d6e0112632003f8679.png ;; TrackNum: 0
+SongID: 933866 ;; Name: Cutsman ;; ArtistName: Horse The Band ;; AlbumName: R Borlax ;; AlbumID: 129156 ;; ArtistID: 4446 ;; CoverArtFilename: 49ec4f3ce12ac01a21484bfb180a56dd.png ;; TrackNum: 2
+SongID: 59467 ;; Name: Alarm Call ;; ArtistName: Björk ;; AlbumName: Homogenic ;; AlbumID: 145153 ;; ArtistID: 5149 ;; CoverArtFilename: 73550ed731b083fcc9a856c86d3cd16b.png ;; TrackNum: 8
+SongID: 7640535 ;; Name: Arrested in Shanghai ;; ArtistName: Rancid ;; AlbumName: Indestructible ;; AlbumID: 108723 ;; ArtistID: 1358 ;; CoverArtFilename: 9fcd7e5d6dcb4ec18b9d960e4fa2f776.png ;; TrackNum: 8
+SongID: 23075062 ;; Name: Benson Hedges ;; ArtistName: fun. ;; AlbumName: Aim and Ignite ;; AlbumID: 4520721 ;; ArtistID: 1163453 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 7151361 ;; Name: High and Dry ;; ArtistName: Radiohead ;; AlbumName: The Best of Radiohead ;; AlbumID: 2844218 ;; ArtistID: 15 ;; CoverArtFilename: 2508906.jpg ;; TrackNum: 6
+SongID: 30284 ;; Name: Windowsill ;; ArtistName: Arcade Fire ;; AlbumName: Neon Bible ;; AlbumID: 119682 ;; ArtistID: 3415 ;; CoverArtFilename: 152a4368aa113759b36c427d39cab1e5.png ;; TrackNum: 9
+SongID: 11962757 ;; Name: What Does Your Sould Look Like, Pt. 4 ;; ArtistName: DJ Shadow ;; AlbumName: Endtroducing ;; AlbumID: 188225 ;; ArtistID: 402467 ;; CoverArtFilename: 2a152a166f833e101236caa7c348f033.png ;; TrackNum: 0
+SongID: 15814523 ;; Name: Hot Love ;; ArtistName: T. Rex ;; AlbumName: Electric Warrior ;; AlbumID: 1144345 ;; ArtistID: 403731 ;; CoverArtFilename: 5046857.jpg ;; TrackNum: 15
+SongID: 24570423 ;; Name: She Likes Hair Bands ;; ArtistName: Butch Walker ;; AlbumName: I Liked It Better When You Had No Heart ;; AlbumID: 3971287 ;; ArtistID: 24309 ;; CoverArtFilename: None ;; TrackNum: 7
+SongID: 24539137 ;; Name: Sultans Of Swing ;; ArtistName: Dire Straits ;; AlbumName: Sultans of Swing: The Very Best of Dire Straits ;; AlbumID: 1385089 ;; ArtistID: 423 ;; CoverArtFilename: 10343983.jpg ;; TrackNum: 1
+SongID: 11197279 ;; Name: My heart's in the Highlands ;; ArtistName: Polyphony ;; AlbumName: Triodion ;; AlbumID: 1932329 ;; ArtistID: 203807 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 22521859 ;; Name: The Royal We ;; ArtistName: Silversun Pickups ;; AlbumName: Swoon ;; AlbumID: 3176945 ;; ArtistID: 4014 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 52185 ;; Name: Breakadawn ;; ArtistName: De La Soul ;; AlbumName: Buhloone Mind State ;; AlbumID: 141346 ;; ArtistID: 1954 ;; CoverArtFilename: ad937affe830ce3fc29ad9edf0b1cb7f.png ;; TrackNum: 13
+SongID: 7146428 ;; Name: I'll Fly Away ;; ArtistName: Kanye West ;; AlbumName: The College Dropout ;; AlbumID: 224054 ;; ArtistID: 181 ;; CoverArtFilename: bb45aec7f30c64cc322c65fba3ed4445.png ;; TrackNum: None
+SongID: 854 ;; Name: Wildcat ;; ArtistName: Ratatat ;; AlbumName: Classics ;; AlbumID: 94812 ;; ArtistID: 151 ;; CoverArtFilename: 94812.jpg ;; TrackNum: 4
+SongID: 29600 ;; Name: Seventeen Years ;; ArtistName: Ratatat ;; AlbumName: Classics ;; AlbumID: 94812 ;; ArtistID: 151 ;; CoverArtFilename: 94812.jpg ;; TrackNum: 0
+SongID: 37894 ;; Name: Gettysburg ;; ArtistName: Ratatat ;; AlbumName: Classics ;; AlbumID: 94812 ;; ArtistID: 151 ;; CoverArtFilename: 94812.jpg ;; TrackNum: 3
+SongID: 24246046 ;; Name: After Hours (Live From Union Chapel, London) ;; ArtistName: We Are Scientists ;; AlbumName: Live From Union Chapel, London ;; AlbumID: 3882479 ;; ArtistID: 4210 ;; CoverArtFilename: None ;; TrackNum: 6
+SongID: 14543252 ;; Name: Cortez the Killer ;; ArtistName: Neil Young ;; AlbumName: Decade (disc 2) ;; AlbumID: 2363897 ;; ArtistID: 2272 ;; CoverArtFilename: 16507307.jpg ;; TrackNum: 17
+SongID: 2904876 ;; Name: Pink Frost ;; ArtistName: The Chills ;; AlbumName: Kaleidoscope World ;; AlbumID: 556497 ;; ArtistID: 7123 ;; CoverArtFilename: b6c9b9e124784577db05829422c92351.png ;; TrackNum: None
+SongID: 23166711 ;; Name: Son of Perdition ;; ArtistName: Hollenthon ;; AlbumName: Opus Magnum ;; AlbumID: 3465707 ;; ArtistID: 183000 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 21175107 ;; Name: Summertime Clothes ;; ArtistName: Animal Collective ;; AlbumName: Merriweather Post Pavilion (disc 1) ;; AlbumID: 3057108 ;; ArtistID: 4029 ;; CoverArtFilename: 3057108.jpg ;; TrackNum: 4
+SongID: 23898540 ;; Name: Knife ;; ArtistName: Acrnym ;; AlbumName: Flowers ;; AlbumID: 3783915 ;; ArtistID: 168649 ;; CoverArtFilename: None ;; TrackNum: 10
+SongID: 603184 ;; Name: Into My Arms ;; ArtistName: Nick Cave & The Bad Seeds ;; AlbumName: The Boatman's Call ;; AlbumID: 2466355 ;; ArtistID: 5929 ;; CoverArtFilename: 6a962d33455b28f0f77bdced65c65522.png ;; TrackNum: 0
+SongID: 10579704 ;; Name: Girl in the Slayer Jacket ;; ArtistName: Pig Destroyer ;; AlbumName: Phantom Limb ;; AlbumID: 229613 ;; ArtistID: 1166774 ;; CoverArtFilename: 18465d38f3f49985113b10fafb129ba3.png ;; TrackNum: 0
+SongID: 21872241 ;; Name: A Passage to Bangkok ;; ArtistName: Rush ;; AlbumName: 2112 ;; AlbumID: 1103744 ;; ArtistID: 402377 ;; CoverArtFilename: 4912107.jpg ;; TrackNum: 0
+SongID: 23352070 ;; Name: When I Look At You ;; ArtistName: Emalkay ;; AlbumName: When I Look At You ;; AlbumID: 3558511 ;; ArtistID: 146834 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 22961830 ;; Name: Crystalised ;; ArtistName: The xx ;; AlbumName: XX ;; AlbumID: 3465425 ;; ArtistID: 1164089 ;; CoverArtFilename: 3465425.jpg ;; TrackNum: 3
+SongID: 13923211 ;; Name: Horse With No Name ;; ArtistName: America ;; AlbumName: Bacobens Rock Top 500 ;; AlbumID: 202240 ;; ArtistID: 2817 ;; CoverArtFilename: 11002539.jpg ;; TrackNum: None
+SongID: 13067668 ;; Name: Vi sitter i Ventrilo och spelar DotA ;; ArtistName: Basshunter ;; AlbumName: LOL <(^^,)> ;; AlbumID: 1155096 ;; ArtistID: 402916 ;; CoverArtFilename: 54993.jpg ;; TrackNum: 1
+SongID: 546949 ;; Name: Damaged ;; ArtistName: Assemblage 23 ;; AlbumName: Meta ;; AlbumID: 173047 ;; ArtistID: 45245 ;; CoverArtFilename: 4a4941e61c12829e3c790f8915d48ea2.png ;; TrackNum: 6
+SongID: 7853 ;; Name: Paranoiattack ;; ArtistName: The Faint ;; AlbumName: Wet From Birth ;; AlbumID: 109709 ;; ArtistID: 1532 ;; CoverArtFilename: 0d744c145351885ed4ae38726e349d80.png ;; TrackNum: 6
+SongID: 166604 ;; Name: Such Great Heights ;; ArtistName: The Postal Service ;; AlbumName: Give Up ;; AlbumID: 2510956 ;; ArtistID: 2443 ;; CoverArtFilename: 2510956.jpg ;; TrackNum: 0
+SongID: 116443 ;; Name: Erotomania ;; ArtistName: Dream Theater ;; AlbumName: Awake ;; AlbumID: 97951 ;; ArtistID: 1988 ;; CoverArtFilename: 0ae95a2c522e25ba0663c305cf8aee66.png ;; TrackNum: 4
+SongID: 23128179 ;; Name: Vlad the Impaler ;; ArtistName: Kasabian ;; AlbumName: West Ryder Pauper Lunatic Asylum ;; AlbumID: 3305940 ;; ArtistID: 3556 ;; CoverArtFilename: None ;; TrackNum: 8
+SongID: 8172769 ;; Name: Lady Don't Tek No ;; ArtistName: Latyrx ;; AlbumName: Solesides Greatest Bumps (1 of 2) ;; AlbumID: 1265212 ;; ArtistID: 18470 ;; CoverArtFilename: 8102536.jpg ;; TrackNum: 11
+SongID: 12733296 ;; Name: Inner City Pressure ;; ArtistName: Flight of the Conchords ;; AlbumName: Music From Season 1 ;; AlbumID: 2236894 ;; ArtistID: 401918 ;; CoverArtFilename: 14615556.jpg ;; TrackNum: 0
+SongID: 7289465 ;; Name: Jenny ;; ArtistName: Flight of the Conchords ;; AlbumName: HBO One Night Stand ;; AlbumID: 1086202 ;; ArtistID: 401918 ;; CoverArtFilename: 453870.jpg ;; TrackNum: 0
+SongID: 7156495 ;; Name: Istanbul (Not Constantinople) ;; ArtistName: They Might Be Giants ;; AlbumName: A User's Guide to They Might Be Giants ;; AlbumID: 1604088 ;; ArtistID: 2462 ;; CoverArtFilename: 12251594.jpg ;; TrackNum: 7
+SongID: 20787898 ;; Name: Lakeside ;; ArtistName: BLK JKS ;; AlbumName: Paste Magazine Sampler #45: August 2008 ;; AlbumID: 2853657 ;; ArtistID: 688975 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 3602027 ;; Name: Grunge 3 (Dieselboy & Kaos & Karl K Remix) ;; ArtistName: Bad Company Uk ;; AlbumName: Dieselboy Present The Human Resource ;; AlbumID: 705927 ;; ArtistID: 43164 ;; CoverArtFilename: None ;; TrackNum: 10
+SongID: 25756953 ;; Name: Wind Blows ;; ArtistName: Yukon Blonde ;; AlbumName: Yukon Blonde ;; AlbumID: 4481766 ;; ArtistID: 1312807 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 27189 ;; Name: Sister Ray ;; ArtistName: The Velvet Underground ;; AlbumName: Pitchfork's 200 Greatest Songs of the 1960s ;; AlbumID: 248350 ;; ArtistID: 4058 ;; CoverArtFilename: 27297.jpg ;; TrackNum: 14
+SongID: 989679 ;; Name: Uncommon Valor: A Vietnam Story ;; ArtistName: Jedi Mind Tricks ;; AlbumName: Servants In Heaven, Kings In Hell ;; AlbumID: 120836 ;; ArtistID: 3535 ;; CoverArtFilename: 23938860aa1df951edf954c24f5fdf60.png ;; TrackNum: 4
+SongID: 1144558 ;; Name: Heal It Up ;; ArtistName: Concrete Blonde ;; AlbumName: Mexican Moon ;; AlbumID: 380112 ;; ArtistID: 18106 ;; CoverArtFilename: 595a30c230327bbe9aabd6185030c1a3.png ;; TrackNum: 3
+SongID: 1290018 ;; Name: The Crown Of Sympathy ;; ArtistName: My Dying Bride ;; AlbumName: Turn Loose The Swans ;; AlbumID: 403203 ;; ArtistID: 45833 ;; CoverArtFilename: 9b600b881f092a34ebb22a2d177b8b18.png ;; TrackNum: 5
+SongID: 22099067 ;; Name: Prehistoric Dog ;; ArtistName: Red Fang ;; AlbumName: Sxsw 2009 Showcasing Artists ;; AlbumID: 3437141 ;; ArtistID: 1055158 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 24434719 ;; Name: Maps ;; ArtistName: Yeah Yeah Yeahs ;; AlbumName: Fever to Tell ;; AlbumID: 1105345 ;; ArtistID: 1640 ;; CoverArtFilename: fcb918441dd20a5109ab9aef0954c2c9.png ;; TrackNum: 9
+SongID: 2180709 ;; Name: You Can Call Me Al ;; ArtistName: Simon, Paul ;; AlbumName: Graceland ;; AlbumID: 121607 ;; ArtistID: 26263 ;; CoverArtFilename: ff8ea62519fb596908e3f890ad154f4a.png ;; TrackNum: 6
+SongID: 9583301 ;; Name: How Blue Can You Get? ;; ArtistName: B.B. King ;; AlbumName: The Best Of BB King ;; AlbumID: 305374 ;; ArtistID: 403099 ;; CoverArtFilename: e22ee79e136cdd5c4a31caf9e26175c1.png ;; TrackNum: 3
+SongID: 11924546 ;; Name: (I Don't Want to Go to) Chelsea ;; ArtistName: Elvis Costello ;; AlbumName: Taking Liberties ;; AlbumID: 1824883 ;; ArtistID: 3481 ;; CoverArtFilename: 6036625.jpg ;; TrackNum: 14
+SongID: 24246046 ;; Name: After Hours (Live From Union Chapel, London) ;; ArtistName: We Are Scientists ;; AlbumName: Live From Union Chapel, London ;; AlbumID: 3882479 ;; ArtistID: 4210 ;; CoverArtFilename: None ;; TrackNum: 6
+SongID: 3181766 ;; Name: American Girl ;; ArtistName: Tom Petty & The Heart Breakers ;; AlbumName: Tom Petty & The Heartbreakers' Greatest Hits ;; AlbumID: 260230 ;; ArtistID: 695 ;; CoverArtFilename: 3269025.jpg ;; TrackNum: 1
+SongID: 56122 ;; Name: Riders On The Storm ;; ArtistName: Doors ;; AlbumName: Greatesthits ;; AlbumID: 101074 ;; ArtistID: 4626 ;; CoverArtFilename: c87ec8a403d3a350c350b6fae96a30f7.png ;; TrackNum: None
+SongID: 154602 ;; Name: Redemption Song ;; ArtistName: Bob Marley & The Wailers ;; AlbumName: Legend: The Best of Bob Marley and the Wailers ;; AlbumID: 97295 ;; ArtistID: 848 ;; CoverArtFilename: 3b6e2cf5b899709020c303c145ce4b5b.png ;; TrackNum: 11
+SongID: 10586815 ;; Name: Living for the City ;; ArtistName: Stevie Wonder ;; AlbumName: The Definitive Collection ;; AlbumID: 126456 ;; ArtistID: 463 ;; CoverArtFilename: e02dfa4bfef84740629f9622393677f9.png ;; TrackNum: 11
+SongID: 717700 ;; Name: Shakedown Street ;; ArtistName: Grateful Dead ;; AlbumName: Shakedown Street ;; AlbumID: 232256 ;; ArtistID: 2068 ;; CoverArtFilename: 3808ec9a0cd72fceb9cb250f1dd3cf16.png ;; TrackNum: 3
+SongID: 2180313 ;; Name: London Calling ;; ArtistName: Clash The ;; AlbumName: London Calling ;; AlbumID: 122336 ;; ArtistID: 52283 ;; CoverArtFilename: 53d46c11caff2af7393b060fd5d7a7ce.png ;; TrackNum: 1
+SongID: 4365400 ;; Name: Suffragate City ;; ArtistName: David Bowie ;; AlbumName: Best Of Bowie ;; AlbumID: 124056 ;; ArtistID: 940 ;; CoverArtFilename: 3536bc41c85b07ad6c5a9f8dda49f751.png ;; TrackNum: None
+SongID: 176455 ;; Name: Life During Wartime ;; ArtistName: Talking Heads ;; AlbumName: Stop Making Sense ;; AlbumID: 183991 ;; ArtistID: 336 ;; CoverArtFilename: 2de376cd3588b49af54b01f1677eb8fc.png ;; TrackNum: 8
+SongID: 416478 ;; Name: Fat Bottomed Girls ;; ArtistName: Queen ;; AlbumName: Queen Rocks ;; AlbumID: 235811 ;; ArtistID: 2324 ;; CoverArtFilename: 5fdbb494ac622e171fb14cf1aa328a09.png ;; TrackNum: 9
+SongID: 19716 ;; Name: I Need More Love ;; ArtistName: Robert Randolph & The Family Band ;; AlbumName: Unclassified ;; AlbumID: 121856 ;; ArtistID: 3655 ;; CoverArtFilename: eebe4844837d469111ee9f2663a4f1b2.png ;; TrackNum: 2
+SongID: 23220166 ;; Name: Convinced Of The Hex ;; ArtistName: The Flaming Lips ;; AlbumName: Embryonic ;; AlbumID: 3441596 ;; ArtistID: 1927 ;; CoverArtFilename: 3441596.jpg ;; TrackNum: 1
+SongID: 4026 ;; Name: Welcome To Jamrock ;; ArtistName: Damian Marley ;; AlbumName: Welcome To Jamrock ;; AlbumID: 107107 ;; ArtistID: 924 ;; CoverArtFilename: 4d5a341d60e93fc9be302f5f0e08e7e3.png ;; TrackNum: 3
+SongID: 7701030 ;; Name: Dance with the Devil ;; ArtistName: Immortal Technique ;; AlbumName: Revolutionary, Volume 1 ;; AlbumID: 2378183 ;; ArtistID: 7937 ;; CoverArtFilename: None ;; TrackNum: 11
+SongID: 37454 ;; Name: Epic Problem ;; ArtistName: Fugazi ;; AlbumName: The Argument ;; AlbumID: 130830 ;; ArtistID: 3994 ;; CoverArtFilename: 8f436b50d5a3c6f6e1891d8f1ed235a5.png ;; TrackNum: 4
+SongID: 24455283 ;; Name: 1901 ;; ArtistName: Phoenix ;; AlbumName: Wolfgang Amadeus Phoenix ;; AlbumID: 3120156 ;; ArtistID: 919306 ;; CoverArtFilename: 3120156.jpg ;; TrackNum: 2
+SongID: 14484495 ;; Name: Angel of Death ;; ArtistName: Slayer ;; AlbumName: Reign in Blood ;; AlbumID: 2360117 ;; ArtistID: 4178 ;; CoverArtFilename: 27997d76d35ceb8af9e94f815f660f98.png ;; TrackNum: 1
+SongID: 7373594 ;; Name: 155 ;; ArtistName: +44 ;; AlbumName: When Your Heart Stops Beating ;; AlbumID: 1100546 ;; ArtistID: 392261 ;; CoverArtFilename: 1149247.jpg ;; TrackNum: 5
+SongID: 23766059 ;; Name: Loco Bananas ;; ArtistName: Big Punisher/Tony Sunshine ;; AlbumName: Langauge Is Fatal ;; AlbumID: 3748838 ;; ArtistID: 1249481 ;; CoverArtFilename: None ;; TrackNum: 11
+SongID: 26018893 ;; Name: Percussion Gun ;; ArtistName: White Rabbits ;; AlbumName: Sirius XM U Sessions ;; AlbumID: 4575388 ;; ArtistID: 7002 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 23269645 ;; Name: Science Of Fear (Album Version) ;; ArtistName: The Temper Trap ;; AlbumName: Science Of Fear EP ;; AlbumID: 3513812 ;; ArtistID: 973606 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 7568762 ;; Name: Cliff Diving ;; ArtistName: +44 ;; AlbumName: When Your Heart Stops Beating ;; AlbumID: 1100546 ;; ArtistID: 392261 ;; CoverArtFilename: 1149247.jpg ;; TrackNum: 7
+SongID: 208689 ;; Name: '39 ;; ArtistName: Queen ;; AlbumName: A Night at the Opera [Bonus Tracks] ;; AlbumID: 191561 ;; ArtistID: 2324 ;; CoverArtFilename: 3217755.jpg ;; TrackNum: 5
+SongID: 23401183 ;; Name: Goodbye' Porkpie Hat ;; ArtistName: Santana, Jeff Beck & Steve Lukather ;; AlbumName: Lotus Gem - Live In Japan '87 (Disc 2) ;; AlbumID: 3580229 ;; ArtistID: 939548 ;; CoverArtFilename: None ;; TrackNum: 7
+SongID: 24814142 ;; Name: Baby I'm Yours ;; ArtistName: Breakbot ;; AlbumName: Baby Im Yours ;; AlbumID: 4094502 ;; ArtistID: 375530 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 23681824 ;; Name: Stubb (A Dub) ;; ArtistName: Mr. Bungle ;; AlbumName:  ;; AlbumID: 1409442 ;; ArtistID: 402535 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 23430394 ;; Name: Supernova ;; ArtistName: 9mm Parabellum Bullet ;; AlbumName: Supernova/Wanderland ;; AlbumID: 3592632 ;; ArtistID: 649779 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 25943949 ;; Name: Change ;; ArtistName: Monkey Majik + Yoshida Brothers ;; AlbumName: Change ;; AlbumID: 4545484 ;; ArtistID: 578547 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 7608072 ;; Name: Man in a Shed ;; ArtistName: Nick Drake ;; AlbumName: Five Leaves Left ;; AlbumID: 114760 ;; ArtistID: 1287 ;; CoverArtFilename: 9a762821d3cc3fced450ea47e4d9ac46.png ;; TrackNum: 8
+SongID: 8604439 ;; Name: Ghosts ;; ArtistName: Laura Marling ;; AlbumName: Alas I Cannot Swim ;; AlbumID: 1359200 ;; ArtistID: 230744 ;; CoverArtFilename: 16491486.jpg ;; TrackNum: 0
+SongID: 15179 ;; Name: Blue Valentines ;; ArtistName: Tom Waits ;; AlbumName: Blue Valentine ;; AlbumID: 118288 ;; ArtistID: 1591 ;; CoverArtFilename: 4ab6e7a8f065b6bfc2e56a2658d182d9.png ;; TrackNum: 10
+SongID: 23379796 ;; Name: They Provide The Paint ;; ArtistName: Bandits of the Acoustic Revolution ;; AlbumName: A Call to Arms ;; AlbumID: 1653208 ;; ArtistID: 430039 ;; CoverArtFilename: 526983.jpg ;; TrackNum: 5
+SongID: 25770505 ;; Name: Coward ;; ArtistName: Annihilator ;; AlbumName: Self Titled ;; AlbumID: 4486330 ;; ArtistID: 10620 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 25112729 ;; Name: one of them days ;; ArtistName: Sonreal ;; AlbumName:  ;; AlbumID: 4236402 ;; ArtistID: 1376112 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 8202104 ;; Name: San Francisco Knights ;; ArtistName: People Under the Stairs ;; AlbumName: The Next Step ;; AlbumID: 1273252 ;; ArtistID: 453218 ;; CoverArtFilename: f2b4dd2b42208bbb34f5be748fb680c6.png ;; TrackNum: 8
+SongID: 11816670 ;; Name: Acid Raindrops ;; ArtistName: People Under the Stairs ;; AlbumName: O.S.T. ;; AlbumID: 1273225 ;; ArtistID: 453218 ;; CoverArtFilename: 16507361.jpg ;; TrackNum: 18
+SongID: 7887766 ;; Name: Move on Up ;; ArtistName: Curtis Mayfield ;; AlbumName: Shared ;; AlbumID: 3440749 ;; ArtistID: 72 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 640838 ;; Name: A Sunday Smile ;; ArtistName: Beirut ;; AlbumName: The Flying Club Cup ;; AlbumID: 258062 ;; ArtistID: 3425 ;; CoverArtFilename: 647bf89d317accc4521b0e3459c20f6a.png ;; TrackNum: 3
+SongID: 23448860 ;; Name: Skinned Knees & Gapped Teeth ;; ArtistName: Dear and the Headlights ;; AlbumName: Small Steps, Heavy Hooves ;; AlbumID: 1643069 ;; ArtistID: 471692 ;; CoverArtFilename: None ;; TrackNum: 9
+SongID: 23191237 ;; Name: Dirty Black Summer ;; ArtistName: Danzig ;; AlbumName: Danzig Iii: How the Gods Kill ;; AlbumID: 421447 ;; ArtistID: 3463 ;; CoverArtFilename: b979a6863d89e2bacbe24d2f0ab84fed.png ;; TrackNum: 5
+SongID: 14745990 ;; Name: Waiting for the Miracle ;; ArtistName: Leonard Cohen ;; AlbumName: The Essential Leonard Cohen (disc 2) ;; AlbumID: 135036 ;; ArtistID: 3797 ;; CoverArtFilename: 8c87d4612ab51196671ab2cc7ae83c34.png ;; TrackNum: 7
+SongID: 23231768 ;; Name: Only Shallow ;; ArtistName: My Bloody Valentine ;; AlbumName: Loveless ;; AlbumID: 132501 ;; ArtistID: 4950 ;; CoverArtFilename: 8097941e88d16b7de610c6f805b258a2.png ;; TrackNum: 1
+SongID: 29495 ;; Name: Gouge Away ;; ArtistName: Pixies ;; AlbumName: Wave of Mutilation: Best of Pixies ;; AlbumID: 1583212 ;; ArtistID: 3641 ;; CoverArtFilename: 9ae578cb80a863f3c91ce91d0adbf214.png ;; TrackNum: 11
+SongID: 10288018 ;; Name: Farmer in the City ;; ArtistName: Scott Walker ;; AlbumName: Tilt ;; AlbumID: 279697 ;; ArtistID: 4066 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 18790225 ;; Name: Past Is Prologue ;; ArtistName: Tycho ;; AlbumName: Past Is Prologue ;; AlbumID: 190032 ;; ArtistID: 20855 ;; CoverArtFilename: 190032.jpg ;; TrackNum: 8
+SongID: 1556136 ;; Name: God Bless Our Dead Marines ;; ArtistName: A Silver Mt Zion ;; AlbumName: Horses In The Sky ;; AlbumID: 281892 ;; ArtistID: 26548 ;; CoverArtFilename: 2516e6c5d13556127bfdef5836dcd2e3.png ;; TrackNum: 1
+SongID: 23217727 ;; Name: Slip Inside This House ;; ArtistName: Primal Scream ;; AlbumName: Screamadelica ;; AlbumID: 162854 ;; ArtistID: 8057 ;; CoverArtFilename: f7a8b990cf8e02d5e9c691b080b11e74.png ;; TrackNum: 2
+SongID: 21882173 ;; Name: The Talking Drum ;; ArtistName: King Crimson ;; AlbumName: Larks' Tongues in Aspic ;; AlbumID: 2362113 ;; ArtistID: 4049 ;; CoverArtFilename: None ;; TrackNum: 5
+SongID: 2874520 ;; Name: Hush ;; ArtistName: Deep Purple ;; AlbumName: 30: Very Best Of ;; AlbumID: 635352 ;; ArtistID: 3465 ;; CoverArtFilename: 241484bf4e3eeb534b33451537419880.png ;; TrackNum: 1
+SongID: 23688239 ;; Name: Gediel ;; ArtistName: Bar Kokhba Sextet ;; AlbumName: Lucifer: Book of Angels, Vol. 10 ;; AlbumID: 3717999 ;; ArtistID: 549806 ;; CoverArtFilename: None ;; TrackNum: 4
+SongID: 698660 ;; Name: Paperhouse ;; ArtistName: Can ;; AlbumName: Tago Mago ;; AlbumID: 294371 ;; ArtistID: 28633 ;; CoverArtFilename: 7fd894cdb1accad0c410eec0cf6a5a2a.png ;; TrackNum: 1
+SongID: 164736 ;; Name: Arch Carrier ;; ArtistName: Autechre ;; AlbumName: LP5 ;; AlbumID: 178992 ;; ArtistID: 17957 ;; CoverArtFilename: cd4a33840e6ae87a00603d57482496f2.png ;; TrackNum: 10
+SongID: 24658329 ;; Name: Baby's on Fire ;; ArtistName: Sammy Hagar ;; AlbumName: Standing Hampton ;; AlbumID: 250036 ;; ArtistID: 2363 ;; CoverArtFilename: 07b813279aac01181923f1f13065bbb3.png ;; TrackNum: 2
+SongID: 551776 ;; Name: Baby's On Fire ;; ArtistName: Brian Eno ;; AlbumName: Here Come The Warm Jets ;; AlbumID: 265649 ;; ArtistID: 14532 ;; CoverArtFilename: a75fce24f7a59125147c17d994aa99e1.png ;; TrackNum: 3
+SongID: 11622231 ;; Name: Under The Milky Way (Acoustic) ;; ArtistName: The Church ;; AlbumName: Starfish ;; AlbumID: 230645 ;; ArtistID: 5843 ;; CoverArtFilename: fc715f8af13e117a6558fbaa4e1831a4.png ;; TrackNum: 8
+SongID: 167574 ;; Name: Sky Starts Falling ;; ArtistName: Doves ;; AlbumName: Some Cities ;; AlbumID: 163362 ;; ArtistID: 4133 ;; CoverArtFilename: 13e20c83fc4aceed23fced13b9172521.png ;; TrackNum: 10
+SongID: 23510150 ;; Name: Ambling Alp (Memory Tapes remix) ;; ArtistName: Yeasayer ;; AlbumName: Ambling Alp ;; AlbumID: 3632881 ;; ArtistID: 7085 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 9524945 ;; Name: Let's Dance to Joy Division ;; ArtistName: The Wombats ;; AlbumName: The Wombats Proudly Present: A Guide to Love, Loss & Desperation ;; AlbumID: 1559699 ;; ArtistID: 6980 ;; CoverArtFilename: 6467195.jpg ;; TrackNum: 8
+SongID: 11290591 ;; Name: Yes! Yes! Yes! ;; ArtistName: Hey Rosetta! ;; AlbumName: Plan Your Escape ;; AlbumID: 443120 ;; ArtistID: 114945 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 23259255 ;; Name: Ain't Nothing Wrong With That (Album Version) ;; ArtistName: Robert Randolph & The Family Band ;; AlbumName: Colorblind ;; AlbumID: 276461 ;; ArtistID: 3655 ;; CoverArtFilename: 5468c6b795f836f4ab0bfb502e7108bf.png ;; TrackNum: 1
+SongID: 23432550 ;; Name: Karma Police ;; ArtistName: Radiohead ;; AlbumName: Karma Police ;; AlbumID: 1585039 ;; ArtistID: 15 ;; CoverArtFilename: 143346.jpg ;; TrackNum: 1
+SongID: 10051229 ;; Name: Basket Case ;; ArtistName: Green Day ;; AlbumName: International Superhits! ;; AlbumID: 1090374 ;; ArtistID: 401441 ;; CoverArtFilename: 16401547.jpg ;; TrackNum: 5
+SongID: 7407830 ;; Name: Leader Of Men ;; ArtistName: Nickelback ;; AlbumName: The State ;; AlbumID: 1092382 ;; ArtistID: 401899 ;; CoverArtFilename: 5956767.jpg ;; TrackNum: 0
+SongID: 2539516 ;; Name: Thrice All American ;; ArtistName: Neko Case ;; AlbumName: Furnace Room Lullaby ;; AlbumID: 188877 ;; ArtistID: 3607 ;; CoverArtFilename: 3708457.jpg ;; TrackNum: 7
+SongID: 9145604 ;; Name: Statement ;; ArtistName: Boris ;; AlbumName: Smile ;; AlbumID: 1057915 ;; ArtistID: 19934 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 7299630 ;; Name: Web in Front ;; ArtistName: Archers of Loaf ;; AlbumName: Icky Mettle ;; AlbumID: 1087524 ;; ArtistID: 402476 ;; CoverArtFilename: 506047.jpg ;; TrackNum: 0
+SongID: 19399 ;; Name: You Enjoy Myself ;; ArtistName: Phish ;; AlbumName: Junta Disc 1 ;; AlbumID: 121722 ;; ArtistID: 47 ;; CoverArtFilename: c8423cbbcbd293504d35cf4ea1badae0.png ;; TrackNum: 2
+SongID: 25906735 ;; Name: Whatever Happened to the Girl in Me? ;; ArtistName: Ike Reilly ;; AlbumName: Sparkle in the Finish ;; AlbumID: 4533033 ;; ArtistID: 63398 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 25936703 ;; Name: Mind Flowers ;; ArtistName: Ultimate Spinach ;; AlbumName: Behold & See ;; AlbumID: 4543341 ;; ArtistID: 467072 ;; CoverArtFilename: None ;; TrackNum: 4
+SongID: 23063531 ;; Name: Little Lion Man ;; ArtistName: Mumford & Sons ;; AlbumName: Blalock's Indie/Rock Playlist: July (2009) ;; AlbumID: 3408667 ;; ArtistID: 658595 ;; CoverArtFilename: 3408667.jpg ;; TrackNum: 62
+SongID: 24537779 ;; Name: Stella ;; ArtistName: Kashiwa Daisuke ;; AlbumName: Program Music I ;; AlbumID: 1546235 ;; ArtistID: 526268 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 24443771 ;; Name: 23 ;; ArtistName: Jimmy Eat World ;; AlbumName: Futures ;; AlbumID: 130541 ;; ArtistID: 1128 ;; CoverArtFilename: 31597eb2bf78a19cfc61e2f432a059b1.png ;; TrackNum: 11
+SongID: 22621730 ;; Name: Bin Laden ;; ArtistName: Immortal Technique ;; AlbumName: Revolutionary Vol. 2 ;; AlbumID: 177826 ;; ArtistID: 7937 ;; CoverArtFilename: 177826.jpg ;; TrackNum: 32
+SongID: 2711685 ;; Name: Daylight ;; ArtistName: Aesop Rock ;; AlbumName: Daylight ;; AlbumID: 106236 ;; ArtistID: 758 ;; CoverArtFilename: 348865c4cf6a7a1fb0e3d17d838cf85d.png ;; TrackNum: 1
+SongID: 841490 ;; Name: Shadow Business ;; ArtistName: Jedi Mind Tricks ;; AlbumName: Servants In Heaven, Kings In Hell ;; AlbumID: 120836 ;; ArtistID: 3535 ;; CoverArtFilename: 23938860aa1df951edf954c24f5fdf60.png ;; TrackNum: 10
+SongID: 23174727 ;; Name: The Good Doctor ;; ArtistName: The Protomen ;; AlbumName: Act II: The Father Of Death ;; AlbumID: 3467706 ;; ArtistID: 138848 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 24743438 ;; Name: Zocalo (Feat. Gabriel & Dresden) ;; ArtistName: Armin van Buuren ;; AlbumName: Shivers ;; AlbumID: 1126282 ;; ArtistID: 404019 ;; CoverArtFilename: 595fdfaea51aa7daa6a6621c1d18acfc.png ;; TrackNum: 5
+SongID: 9151837 ;; Name: Smells Like Content ;; ArtistName: The Books ;; AlbumName: Lost and Safe ;; AlbumID: 1475861 ;; ArtistID: 18886 ;; CoverArtFilename: 18b51357fcdb8bd58cad8d22ac97547a.png ;; TrackNum: 0
+SongID: 17201735 ;; Name: Everything (Big Room mix) ;; ArtistName: Kaskade ;; AlbumName: House of Om: Kaskade ;; AlbumID: 2563081 ;; ArtistID: 4496 ;; CoverArtFilename: None ;; TrackNum: 7
+SongID: 63125 ;; Name: Orion ;; ArtistName: Metallica ;; AlbumName: Master Of Puppets ;; AlbumID: 124608 ;; ArtistID: 676 ;; CoverArtFilename: 2eeea0c4e29ccd1aa41109a584c70287.png ;; TrackNum: 7
+SongID: 23607618 ;; Name: Hljomalind ;; ArtistName: Sigur Rós ;; AlbumName: Hvarf ;; AlbumID: 831343 ;; ArtistID: 1426 ;; CoverArtFilename: 6116262.jpg ;; TrackNum: 2
+SongID: 11003131 ;; Name: Take 5 ;; ArtistName: Dave Brubeck ;; AlbumName:  ;; AlbumID: 1386579 ;; ArtistID: 1948 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 25229186 ;; Name: Rude And Reckless ;; ArtistName: Slackers ;; AlbumName: Red Light ;; AlbumID: 141638 ;; ArtistID: 4700 ;; CoverArtFilename: 53d46abdd4c9f1f26d94c97821556eec.png ;; TrackNum: 11
+SongID: 8201502 ;; Name: Maybe Tomorrow ;; ArtistName: Stereophonics ;; AlbumName: Maybe Tomorrow ;; AlbumID: 1812575 ;; ArtistID: 401401 ;; CoverArtFilename: 3433370.jpg ;; TrackNum: 2
+SongID: 23534111 ;; Name: blackend ;; ArtistName: Metallica ;; AlbumName: ... And Justice for All ;; AlbumID: 3485679 ;; ArtistID: 676 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 9292506 ;; Name: Peace Sells ;; ArtistName: Megadeth ;; AlbumName: Peace Sells... But Who's Buying? ;; AlbumID: 1506499 ;; ArtistID: 10776 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 23087533 ;; Name: Hate Worldwide ;; ArtistName: SLAYER ;; AlbumName: World Painted Blood ;; AlbumID: 3418046 ;; ArtistID: 434775 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 14529138 ;; Name: Caught in a Mosh ;; ArtistName: Anthrax ;; AlbumName: Among the Living ;; AlbumID: 2363032 ;; ArtistID: 10705 ;; CoverArtFilename: 5812552.jpg ;; TrackNum: 2
+SongID: 22498040 ;; Name: Amnesia ;; ArtistName: Blu ;; AlbumName: HerFavoriteColo(u)r ;; AlbumID: 3237570 ;; ArtistID: 1132207 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 4514558 ;; Name: In The Summertime ;; ArtistName: Mungo Jerry ;; AlbumName: The Best Of Mungo Jerry ;; AlbumID: 802151 ;; ArtistID: 3601 ;; CoverArtFilename: None ;; TrackNum: None
+SongID: 236878 ;; Name: Marquee Moon ;; ArtistName: Television ;; AlbumName: Marquee Moon ;; AlbumID: 198992 ;; ArtistID: 23056 ;; CoverArtFilename: eeac451be464776bfd6652a63a7c7866.png ;; TrackNum: 4
+SongID: 25263534 ;; Name: Sabotage ;; ArtistName: Cancer Bats ;; AlbumName: Bears, Mayors, Scraps and Bones ;; AlbumID: 4280580 ;; ArtistID: 52351 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 231367 ;; Name: In My Time Of Dying ;; ArtistName: Led Zeppelin ;; AlbumName: Led Zeppelin ;; AlbumID: 113663 ;; ArtistID: 1180 ;; CoverArtFilename: fd50b219193c66976db7cb587b088acd.png ;; TrackNum: 10
+SongID: 8420289 ;; Name: Birthday Boys ;; ArtistName: Oysterhead ;; AlbumName: The Grand Pecking Order ;; AlbumID: 1182867 ;; ArtistID: 431192 ;; CoverArtFilename: 1407405.jpg ;; TrackNum: 0
+SongID: 6816445 ;; Name: This Corrosion ;; ArtistName: Sisters Of Mercy ;; AlbumName: A Slight Case Of Overbombing ;; AlbumID: 311248 ;; ArtistID: 38234 ;; CoverArtFilename: 09c324c714aea5b09e090ff8b051a5f6.png ;; TrackNum: None
+SongID: 22603294 ;; Name: Something Good Can Work ;; ArtistName: Two Door Cinema Club ;; AlbumName: Something Good Can Work ;; AlbumID: 3268147 ;; ArtistID: 1055805 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 26068451 ;; Name: Tell Her About It ;; ArtistName: Billy Joel ;; AlbumName: Greatest Hits Volume III ;; AlbumID: 1250035 ;; ArtistID: 1851 ;; CoverArtFilename: 3027482.jpg ;; TrackNum: 21
+SongID: 24434892 ;; Name: Just The Way You Are ;; ArtistName: Billy Joel ;; AlbumName: The Stranger ;; AlbumID: 111251 ;; ArtistID: 1851 ;; CoverArtFilename: 2eb7cb04bfded085a7f8988346cf1c72.png ;; TrackNum: 3
+SongID: 11615140 ;; Name: Scarlet Begonias ;; ArtistName: Sublime ;; AlbumName: Gold (disc 1) ;; AlbumID: 2024423 ;; ArtistID: 1475 ;; CoverArtFilename: 9537205.jpg ;; TrackNum: 12
+SongID: 640889 ;; Name: Berlin ;; ArtistName: Black Rebel Motor Cycle Club ;; AlbumName: Baby 81 ;; AlbumID: 1114641 ;; ArtistID: 14718 ;; CoverArtFilename: 3813313.jpg ;; TrackNum: 0
+SongID: 24541939 ;; Name: Ain't No Sunshine (Single Version) ;; ArtistName: Bill Withers ;; AlbumName: Lean On Me: The Best of Bill Withers ;; AlbumID: 2396454 ;; ArtistID: 1849 ;; CoverArtFilename: aa62028cb09af985e4f51d1c36a463ce.png ;; TrackNum: 1
+SongID: 22349624 ;; Name: The Queen's Rebuke / The Crossing ;; ArtistName: The Decemberists ;; AlbumName: The Hazards of Love ;; AlbumID: 3068562 ;; ArtistID: 1525 ;; CoverArtFilename: None ;; TrackNum: 12
+SongID: 169328 ;; Name: Free Hand ;; ArtistName: Gentle Giant ;; AlbumName: Free Hand + Interview ;; AlbumID: 181024 ;; ArtistID: 10260 ;; CoverArtFilename: d9837a440e960e45aa878a69e3ff7f7f.png ;; TrackNum: None
+SongID: 4230268 ;; Name: Take My Picture ;; ArtistName: Filter ;; AlbumName: Filter ;; AlbumID: 527800 ;; ArtistID: 159 ;; CoverArtFilename: None ;; TrackNum: None
+SongID: 28566 ;; Name: Ice Dogs ;; ArtistName: Man Man ;; AlbumName: Six Demon Bag ;; AlbumID: 126111 ;; ArtistID: 4157 ;; CoverArtFilename: e40a89aaeb62e0dfe04b48fc780861dd.png ;; TrackNum: 13
+SongID: 26024947 ;; Name: Make  me wanna die ;; ArtistName: The Pretty Reckless ;; AlbumName: bvsiduhgd ;; AlbumID: 4577457 ;; ArtistID: 1231781 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 231352 ;; Name: Gallows Pole ;; ArtistName: Led Zeppelin ;; AlbumName: Led Zeppelin ;; AlbumID: 113663 ;; ArtistID: 1180 ;; CoverArtFilename: fd50b219193c66976db7cb587b088acd.png ;; TrackNum: 10
+SongID: 24617937 ;; Name: On Impulse ;; ArtistName: Animals As Leaders ;; AlbumName: Animals As Leaders ;; AlbumID: 3395037 ;; ArtistID: 1118101 ;; CoverArtFilename: None ;; TrackNum: 4
+SongID: 11377877 ;; Name: Just Impolite ;; ArtistName: Plushgun ;; AlbumName: Plushgun ;; AlbumID: 1973780 ;; ArtistID: 226321 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 7319192 ;; Name: Hurt ;; ArtistName: Johnny Cash ;; AlbumName: American IV: The Man Comes Around ;; AlbumID: 1089529 ;; ArtistID: 439 ;; CoverArtFilename: 3063941.jpg ;; TrackNum: 2
+SongID: 25569207 ;; Name: Used To Get High ;; ArtistName: The John Butler Trio ;; AlbumName: Grand National ;; AlbumID: 149316 ;; ArtistID: 20926 ;; CoverArtFilename: f91085e293738911042fc2677883b07b.png ;; TrackNum: 6
+SongID: 25688101 ;; Name: She's On Fire ;; ArtistName: Train ;; AlbumName: Drops of Jupiter ;; AlbumID: 1225748 ;; ArtistID: 221 ;; CoverArtFilename: 1225748.jpg ;; TrackNum: 1
+SongID: 23427358 ;; Name: Leraine ;; ArtistName: Secede ;; AlbumName: Tryshasla ;; AlbumID: 3589775 ;; ArtistID: 9697 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 25322374 ;; Name: Rise To Find You ;; ArtistName: Stubborn All-Stars ;; AlbumName: Open Season ;; AlbumID: 4325887 ;; ArtistID: 615884 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 22911621 ;; Name: Quiet Little Voices ;; ArtistName: We Were Promised Jetpacks ;; AlbumName: These Four Walls ;; AlbumID: 3359726 ;; ArtistID: 537848 ;; CoverArtFilename: None ;; TrackNum: 7
+SongID: 69354 ;; Name: Locomotive Breath ;; ArtistName: Jethro Tull ;; AlbumName: A Little Light Music ;; AlbumID: 172878 ;; ArtistID: 3537 ;; CoverArtFilename: 3219170.jpg ;; TrackNum: 17
+SongID: 24936234 ;; Name: Warrior ;; ArtistName: José James ;; AlbumName: Blackmagic ;; AlbumID: 4147341 ;; ArtistID: 527914 ;; CoverArtFilename: None ;; TrackNum: 5
+SongID: 21681501 ;; Name: I Don't Care (feat. Adam Gontier of Three Days Grace) ;; ArtistName: Apocalyptica ;; AlbumName: I Don't Care (CDS) ;; AlbumID: 3021836 ;; ArtistID: 4228 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 24444893 ;; Name: Inside Out ;; ArtistName: Eve 6 ;; AlbumName: Eve 6 ;; AlbumID: 107354 ;; ArtistID: 1016 ;; CoverArtFilename: f02a2f2969ef91878fb69daa99309f0a.png ;; TrackNum: 2
+SongID: 1182940 ;; Name: House Of The Rising Sun ;; ArtistName: The Animals ;; AlbumName: Retrospective ;; AlbumID: 298050 ;; ArtistID: 13640 ;; CoverArtFilename: 9b3e7b391a3a699d4b70bc670b607d34.png ;; TrackNum: 1
+SongID: 3931817 ;; Name: Read My Mind ;; ArtistName: The Killers ;; AlbumName: Sam's Town ;; AlbumID: 1106860 ;; ArtistID: 583 ;; CoverArtFilename: 16459390.jpg ;; TrackNum: 0
+SongID: 632757 ;; Name: Too Young ;; ArtistName: Phoenix ;; AlbumName: United ;; AlbumID: 1360579 ;; ArtistID: 919306 ;; CoverArtFilename: 1092056.jpg ;; TrackNum: 2
+SongID: 9754027 ;; Name: Turn Me On (Original Mix) ;; ArtistName: Kevin Lyttle ;; AlbumName: Turn Me On ;; AlbumID: 435677 ;; ArtistID: 26941 ;; CoverArtFilename: None ;; TrackNum: 3
+SongID: 1696640 ;; Name: September ;; ArtistName: Earth Wind & Fire ;; AlbumName: Greatest Hits ;; AlbumID: 1131787 ;; ArtistID: 2804 ;; CoverArtFilename: 6253343.jpg ;; TrackNum: 0
+SongID: 6354 ;; Name: Major Tom Coming Home ;; ArtistName: Peter Schilling ;; AlbumName: The Different Story (World of Lust and Crime) ;; AlbumID: 187171 ;; ArtistID: 1324 ;; CoverArtFilename: 68ccb1ffddffd32e1ac1eb00efd93c5f.png ;; TrackNum: 2
+SongID: 13694149 ;; Name: Space Oddity ;; ArtistName: David Bowie ;; AlbumName: Space Oddity ;; AlbumID: 107143 ;; ArtistID: 940 ;; CoverArtFilename: 2609677.jpg ;; TrackNum: 1
+SongID: 352777 ;; Name: Jenny Says ;; ArtistName: Cowboy Mouth ;; AlbumName: Are You With Me? ;; AlbumID: 214559 ;; ArtistID: 27295 ;; CoverArtFilename: 3aa35235452d1a93b8069adc61aae553.png ;; TrackNum: 1
+SongID: 276164 ;; Name: Fists Up ;; ArtistName: The Blow ;; AlbumName: Paper Television ;; AlbumID: 137867 ;; ArtistID: 6992 ;; CoverArtFilename: 137867.jpg ;; TrackNum: 9
+SongID: 13974802 ;; Name: woodpeckers from mars ;; ArtistName: faith no more ;; AlbumName: the real thing ;; AlbumID: 2322582 ;; ArtistID: 420073 ;; CoverArtFilename: 0e3f4eb43035cdab9fad7043cfb110f2.png ;; TrackNum: 0
+SongID: 8011760 ;; Name: Tales of Brave Ulysses ;; ArtistName: Cream ;; AlbumName: Disraeli Gears ;; AlbumID: 120206 ;; ArtistID: 41 ;; CoverArtFilename: 8dd8f282d653ec40fb61c79e0f250fc9.png ;; TrackNum: 6
+SongID: 390978 ;; Name: Do You Feel Like We Do ;; ArtistName: Peter Frampton ;; AlbumName: Frampton's Camel ;; AlbumID: 231014 ;; ArtistID: 65 ;; CoverArtFilename: 66f9d48788cd5b1ebc237577e9f498f1.png ;; TrackNum: 9
+SongID: 7608588 ;; Name: Your Hand in Mine ;; ArtistName: Explosions in the Sky ;; AlbumName: The Earth Is Not a Cold Dead Place ;; AlbumID: 1144571 ;; ArtistID: 401444 ;; CoverArtFilename: 1144571.jpg ;; TrackNum: 0
+SongID: 7292469 ;; Name: To Be Young (Is to Be Sad, Is to Be High) ;; ArtistName: Ryan Adams ;; AlbumName: Heartbreaker ;; AlbumID: 183441 ;; ArtistID: 107 ;; CoverArtFilename: 9d324ba1db0ee448ed107c1d6312d5a1.png ;; TrackNum: 0
+SongID: 2325814 ;; Name: Yellow ;; ArtistName: Coldplay ;; AlbumName: Yellow ;; AlbumID: 319584 ;; ArtistID: 61 ;; CoverArtFilename: 319584.jpg ;; TrackNum: 1
+SongID: 23624693 ;; Name: Sonne ;; ArtistName: Rammstein ;; AlbumName: Mutter ;; AlbumID: 108707 ;; ArtistID: 198 ;; CoverArtFilename: a2ce1806ac7c798df3062049508297af.png ;; TrackNum: 3
+SongID: 10567998 ;; Name: Wrapped in Piano Strings ;; ArtistName: Radical Face ;; AlbumName: Ghost ;; AlbumID: 140433 ;; ArtistID: 7840 ;; CoverArtFilename: 140433.jpg ;; TrackNum: 6
+SongID: 1099424 ;; Name: Fools Gold 4.15 ;; ArtistName: Stone Roses ;; AlbumName: Fools Gold 9.53 ;; AlbumID: 368456 ;; ArtistID: 50260 ;; CoverArtFilename: 1099424.jpg ;; TrackNum: None
+SongID: 24436125 ;; Name: Skinny Love ;; ArtistName: Bon Iver ;; AlbumName: For Emma, Forever Ago ;; AlbumID: 683840 ;; ArtistID: 220454 ;; CoverArtFilename: 683840.jpg ;; TrackNum: 3
+SongID: 3203127 ;; Name: Sly ;; ArtistName: The Cat Empire ;; AlbumName: Two Shoes ;; AlbumID: 129430 ;; ArtistID: 4477 ;; CoverArtFilename: 8df129c461babc0facb6750831a3915b.png ;; TrackNum: 1
+SongID: 63483 ;; Name: Dramamine ;; ArtistName: Modest Mouse ;; AlbumName: This is a long drive for someone with nothing to think abou ;; AlbumID: 410397 ;; ArtistID: 2246 ;; CoverArtFilename: 508476.jpg ;; TrackNum: 1
+SongID: 14182844 ;; Name: Black Cadillac ;; ArtistName: Modest Mouse ;; AlbumName: Good News for People Who Love Bad News ;; AlbumID: 114377 ;; ArtistID: 2246 ;; CoverArtFilename: 7cb9b094e859d61e46811ccaacb2aa0c.png ;; TrackNum: 0
+SongID: 13590700 ;; Name: Short Skirt/Long Jacket ;; ArtistName: CAKE ;; AlbumName: Short Skirt/Long Jacket ;; AlbumID: 448959 ;; ArtistID: 405212 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 7167406 ;; Name: Susan's House ;; ArtistName: Eels ;; AlbumName: Beautiful Freak ;; AlbumID: 172375 ;; ArtistID: 2002 ;; CoverArtFilename: cf70846518b980bcb3ff0c9278842e8f.png ;; TrackNum: None
+SongID: 21882687 ;; Name: Epitaph ;; ArtistName: King Crimson ;; AlbumName: Condensed 21st Century Guide to King Crimson (1969-2003) (disc 1) ;; AlbumID: 2832656 ;; ArtistID: 4049 ;; CoverArtFilename: None ;; TrackNum: 2
+SongID: 22774 ;; Name: Right In Two ;; ArtistName: Tool ;; AlbumName: 10000 Days ;; AlbumID: 124442 ;; ArtistID: 3848 ;; CoverArtFilename: c10d77249eb8cd8ba4a86714b076723e.png ;; TrackNum: 10
+SongID: 10286695 ;; Name: We Own the Sky ;; ArtistName: M83 ;; AlbumName: Saturdays = Youth ;; AlbumID: 1064451 ;; ArtistID: 17859 ;; CoverArtFilename: 1064451.jpg ;; TrackNum: 7
+SongID: 25044496 ;; Name: Hoop and Swan ;; ArtistName: Forgetters ;; AlbumName: Charlotte NC 14DEC09 The Milestone ;; AlbumID: 4202202 ;; ArtistID: 1367949 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 2711685 ;; Name: Daylight ;; ArtistName: Aesop Rock ;; AlbumName: Daylight ;; AlbumID: 106236 ;; ArtistID: 758 ;; CoverArtFilename: 348865c4cf6a7a1fb0e3d17d838cf85d.png ;; TrackNum: 1
+SongID: 231377 ;; Name: In The Light ;; ArtistName: Led Zeppelin ;; AlbumName: Led Zeppelin ;; AlbumID: 113663 ;; ArtistID: 1180 ;; CoverArtFilename: fd50b219193c66976db7cb587b088acd.png ;; TrackNum: 10
+SongID: 23174746 ;; Name: You and I (Deadmau5 Mix) ;; ArtistName: Medina ;; AlbumName: 20090801-outaTiME, clubbers-vol.1 ;; AlbumID: 3468052 ;; ArtistID: 352235 ;; CoverArtFilename: None ;; TrackNum: 7
+SongID: 47274 ;; Name: Gold Soundz ;; ArtistName: Pavement ;; AlbumName: Crooked Rain Crooked Rain: LA's Desert Origins ;; AlbumID: 136934 ;; ArtistID: 4965 ;; CoverArtFilename: 5418216.jpg ;; TrackNum: 1
+SongID: 7798798 ;; Name: Staring at the Sun ;; ArtistName: TV on the Radio ;; AlbumName: Desperate Youth, Blood Thirsty Babes ;; AlbumID: 1136178 ;; ArtistID: 412105 ;; CoverArtFilename: 5561615.jpg ;; TrackNum: 2
+SongID: 3650725 ;; Name: BANGFEST ;; ArtistName: Ludachrist ;; AlbumName: BANGFEST ;; AlbumID: 710705 ;; ArtistID: 231862 ;; CoverArtFilename: None ;; TrackNum: None
+SongID: 1585068 ;; Name: Baba O Reiley ;; ArtistName: The Who ;; AlbumName: Baba O'reiley ;; AlbumID: 124919 ;; ArtistID: 54 ;; CoverArtFilename: 1585068.jpg ;; TrackNum: None
+SongID: 274344 ;; Name: Welcome Home, Son ;; ArtistName: Radical Face ;; AlbumName: Ghost ;; AlbumID: 140433 ;; ArtistID: 7840 ;; CoverArtFilename: 140433.jpg ;; TrackNum: None
+SongID: 6183096 ;; Name: Touch Of Grey ;; ArtistName: Greatful Dead ;; AlbumName: In The Dark ;; AlbumID: 409287 ;; ArtistID: 53513 ;; CoverArtFilename: 5064da78b8808959356375e1fa6d8b48.png ;; TrackNum: 1
+SongID: 941068 ;; Name: Radio Nowhere ;; ArtistName: Bruce Springsteen ;; AlbumName: Radio Nowhere - Single ;; AlbumID: 342610 ;; ArtistID: 2532 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 23380262 ;; Name: Crazyhorse Mongoose ;; ArtistName: Galactic ;; AlbumName: Crazyhorse Mongoose ;; AlbumID: 120582 ;; ArtistID: 3502 ;; CoverArtFilename: 491d1499d076bb78907a9eb90b7613f5.png ;; TrackNum: 3
+SongID: 15037992 ;; Name: Eriatarka ;; ArtistName: The Mars Volta ;; AlbumName: De-Loused in the Comatorium ;; AlbumID: 1231735 ;; ArtistID: 1540 ;; CoverArtFilename: 16376369.jpg ;; TrackNum: 6
+SongID: 7401903 ;; Name: Dvno ;; ArtistName: Justice ;; AlbumName: Justice ;; AlbumID: 207813 ;; ArtistID: 401337 ;; CoverArtFilename: 207813.jpg ;; TrackNum: 9
+SongID: 23289167 ;; Name: Heavyweight ;; ArtistName: Infected Mushroom ;; AlbumName: Vicious Delicious ;; AlbumID: 117922 ;; ArtistID: 2590 ;; CoverArtFilename: 646709a0cb2f016d5e408020c035c5f8.png ;; TrackNum: 4
+SongID: 1985240 ;; Name: Dead Wrestlers ;; ArtistName: Bis ;; AlbumName: Music for a Stranger World ;; AlbumID: 509152 ;; ArtistID: 6 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 3835497 ;; Name: Where Im From ;; ArtistName: Digable Planets ;; AlbumName: Digable Planets ;; AlbumID: 730493 ;; ArtistID: 3187 ;; CoverArtFilename: None ;; TrackNum: None
+SongID: 22729918 ;; Name: Reggae Got Soul (with Ken Boothe and Marcia Griffiths) ;; ArtistName: Toots & The Maytals ;; AlbumName: True Love ;; AlbumID: 191644 ;; ArtistID: 4117 ;; CoverArtFilename: 564d13bc4afc49a8234a5418a2386d6e.png ;; TrackNum: 10
+SongID: 24440574 ;; Name: Why I Am ;; ArtistName: Dave Matthews Band ;; AlbumName: Big Whiskey and the GrooGrux King ;; AlbumID: 3387754 ;; ArtistID: 1950 ;; CoverArtFilename: None ;; TrackNum: 5
+SongID: 5115422 ;; Name: Club Foot (radio edit) ;; ArtistName: Kasabian ;; AlbumName: Kasabian ;; AlbumID: 149352 ;; ArtistID: 3556 ;; CoverArtFilename: f1dfaa6415d16044b71cf88a926ddec3.png ;; TrackNum: None
+SongID: 541886 ;; Name: Retrovertigo ;; ArtistName: Mr Bungle ;; AlbumName: California ;; AlbumID: 182558 ;; ArtistID: 18593 ;; CoverArtFilename: 3d88bdf9e4f28526c8d62a55345a83d1.png ;; TrackNum: 3
+SongID: 140163 ;; Name: Finished Symphony ;; ArtistName: Hybrid ;; AlbumName: Wide Angle ;; AlbumID: 2409045 ;; ArtistID: 12283 ;; CoverArtFilename: 2794169.jpg ;; TrackNum: 0
+SongID: 11122793 ;; Name: Sleepy Head ;; ArtistName: Passion Pit ;; AlbumName: Pretty Penny ;; AlbumID: 1915746 ;; ArtistID: 620149 ;; CoverArtFilename: None ;; TrackNum: 1
+SongID: 23938101 ;; Name: Mr. Indignant Erection ;; ArtistName: Crotchduster ;; AlbumName: Big Fat Box of Shit ;; AlbumID: 2492598 ;; ArtistID: 106219 ;; CoverArtFilename: None ;; TrackNum: 5
+SongID: 7804485 ;; Name: Italian Leather Sofa ;; ArtistName: CAKE ;; AlbumName: Fashion Nugget ;; AlbumID: 1129508 ;; ArtistID: 405212 ;; CoverArtFilename: 6453477.jpg ;; TrackNum: 13
+SongID: 24529761 ;; Name: Hallelujah ;; ArtistName: Jeff Buckley ;; AlbumName: Grace ;; AlbumID: 120837 ;; ArtistID: 173 ;; CoverArtFilename: 3bb52942e0bf29c136ff31559f0abef9.png ;; TrackNum: 6
+SongID: 269678 ;; Name: Apparition ;; ArtistName: Rx Bandits ;; AlbumName: And The Battle Begun ;; AlbumID: 204014 ;; ArtistID: 1389 ;; CoverArtFilename: 3148079.jpg ;; TrackNum: 8
+SongID: 22169264 ;; Name: Gold Guns Girls ;; ArtistName: Metric ;; AlbumName: Fantasies ;; AlbumID: 3106124 ;; ArtistID: 1245 ;; CoverArtFilename: 3106124.jpg ;; TrackNum: 5
+SongID: 22051003 ;; Name: Heads Will Roll ;; ArtistName: Yeah Yeah Yeahs ;; AlbumName: It's Blitz! ;; AlbumID: 3109804 ;; ArtistID: 1640 ;; CoverArtFilename: 3109804.jpg ;; TrackNum: 2
+SongID: 1924938 ;; Name: Dirty Love ;; ArtistName: Frank Zappa ;; AlbumName: Strictly Commercial: The Best of Frank Zappa ;; AlbumID: 255216 ;; ArtistID: 3493 ;; CoverArtFilename: dba08d709d07cab9267a6006d315441c.png ;; TrackNum: 5
+SongID: 2816721 ;; Name: Sailing Shoes,Julia,Sneaking Through The Alley With Sally ;; ArtistName: Robert Palmer ;; AlbumName: Music MP3s ;; AlbumID: 627891 ;; ArtistID: 2620 ;; CoverArtFilename: None ;; TrackNum: None
+SongID: 11806832 ;; Name: Doobie Ashtray ;; ArtistName: Devin the Dude ;; AlbumName: Just Tryin' ta Live ;; AlbumID: 2066849 ;; ArtistID: 430436 ;; CoverArtFilename: None ;; TrackNum: 0
+SongID: 23543778 ;; Name: So Serious ;; ArtistName: Electric Light Orchestra ;; AlbumName: The Light Years ;; AlbumID: 300127 ;; ArtistID: 2005 ;; CoverArtFilename: 2208104.jpg ;; TrackNum: 6
+SongID: 30420 ;; Name: Yankee Bayonet (I Will Be Home Then) ;; ArtistName: The Decemberists ;; AlbumName: The Crane Wife ;; AlbumID: 110472 ;; ArtistID: 1525 ;; CoverArtFilename: f14c045261f2a45715d63a3e90bf2765.png ;; TrackNum: 3
+SongID: 24660173 ;; Name: To Hell With Good Intentions ;; ArtistName: mclusky ;; AlbumName: mclusky Do Dallas ;; AlbumID: 2284442 ;; ArtistID: 483940 ;; CoverArtFilename: c1fe7fe644ae2d9857994ef70295c2ac.png ;; TrackNum: 8
+SongID: 7280683 ;; Name: Baby, We'll Be Fine ;; ArtistName: The National ;; AlbumName: Alligator ;; AlbumID: 132719 ;; ArtistID: 5035 ;; CoverArtFilename: 8bfc47efad7caa52261f6ab2b6b0d9e3.png ;; TrackNum: 6
+SongID: 8734540 ;; Name: The End of the Beginning ;; ArtistName: God Is an Astronaut ;; AlbumName: The End of the Beginning ;; AlbumID: 1382450 ;; ArtistID: 485789 ;; CoverArtFilename: 68d0729f19e9d94887b0bca1bd09127b.png ;; TrackNum: 0
+SongID: 35005 ;; Name: Thrash Unreal ;; ArtistName: Against Me ;; AlbumName: New Wave ;; AlbumID: 1085373 ;; ArtistID: 762 ;; CoverArtFilename: 404682.jpg ;; TrackNum: 0
+SongID: 12600034 ;; Name: Borne On The FM Waves ;; ArtistName: Against Me! ;; AlbumName: New Wave ;; AlbumID: 1085373 ;; ArtistID: 401553 ;; CoverArtFilename: 404682.jpg ;; TrackNum: 6
+SongID: 29494 ;; Name: Hey ;; ArtistName: Pixies ;; AlbumName: Doolittle ;; AlbumID: 126282 ;; ArtistID: 3641 ;; CoverArtFilename: 8f7f87f9ebf1deb9e329c41f76d40db4.png ;; TrackNum: 13

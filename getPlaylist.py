@@ -19,10 +19,10 @@ def main(playlistID, filename=None):
 # Don't change the song ID.
 # Changing any other metadata isn't going to change the ID3 info of the tag.
 
-"""
+# Playlist ID: %s
+""" % (playlistID,)
         for songinfo in sorted(result['Songs'], key=lambda k: int(k[u'Sort'])):
             songinfo.pop(u'Sort')
-            songinfo.pop(u'CoverArtFilename')
             songinfo.pop(u'Flags')
             songinfo.pop(u'Popularity')
             songinfo.pop(u'EstimateDuration')
