@@ -26,7 +26,7 @@ def main():
     def initialized(result):
         coop = task.Cooperator()
         work = (gs.downloadSongInfo(i, options.f % i, options.c % i) for i in songlist)
-        d = defer.DeferredList([coop.coiterate(work) for i in xrange(1)])
+        d = defer.DeferredList([coop.coiterate(work) for i in xrange(15)])
         d.addCallbacks(lambda res: reactor.stop, log.err)
 
     gs.initialize().addCallback(initialized)
