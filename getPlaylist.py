@@ -10,6 +10,7 @@ from twisted.internet import reactor, defer
 def main(playlistID, filename=None):
     filename = filename or "songlist.txt"
     gs = api.GroovesharkAPI()
+    yield gs.initialize()
     result = yield gs.getPlaylist(playlistID)
     with codecs.open(filename, "w", "utf8") as file:
         print >>file, """

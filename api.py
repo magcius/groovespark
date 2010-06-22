@@ -17,6 +17,30 @@ ART_BASE_URL = "http://beta.grooveshark.com/static/amazonart/m"
 
 class JSONFault(Exception): pass
 
+### TWISTED MONKEY PATCHING
+### SHIELD YOUR EYES, #twisted!
+
+# HTTPClient, when using afterFoundGet on a 302
+# handles 301 twice, leaving to two requests
+# to the server
+def stupid_bug_handleStatus_302(self):
+    if self.afterFoundGet:
+        self.handleStatus_303()
+    else:
+        self.handleStatus_301()
+client.HTTPPageGetter.handleStatus203 = stupid_bug_handleStatus_302
+
+# I have to do this because downloadPage/HTTPDownloader
+# doesn't support afterFoundGet, which is required
+# to download from the Akamai servers
+def stupid_bug_HTTPDownloader(factory=client.HTTPDownloader):
+    def inner(*a, **kw):
+        I = factory(*a, **kw)
+        I.afterFoundGet = True
+        return I
+    return inner
+client.HTTPDownloader = stupid_bug_HTTPDownloader()
+
 class GroovesharkAPI(object):
     def __init__(self, url=API_URL):
         self.url = url
@@ -32,21 +56,14 @@ class GroovesharkAPI(object):
         # Token expiration date.
         self.tokenExpire = None
         self.country = None
-        self.commandQueue = []
-        self.initialize()
 
     @defer.inlineCallbacks
     def initialize(self):
-        self.initialized = False
         yield self.fetchSessionID()
         yield self.fetchToken()
         # I'm not sure if you *need* a country,
         # but the official client uses it.
         yield self.fetchCountry()
-        self.initialized = True
-        for func, deferred in self.commandQueue:
-            result = yield func()
-            deferred.callback(result)
 
     def getURL(self, script, *args, **kwargs):
         return "%s%s?%s%s" % (self.url, script,
@@ -60,14 +77,14 @@ class GroovesharkAPI(object):
 
     @defer.inlineCallbacks
     def fetchToken(self):
-        self.rawToken = yield self._send('getCommunicationToken',
+        self.rawToken = yield self.send('getCommunicationToken',
             dict(secretKey=hashlib.md5(self.headers['session']).hexdigest()),
             tokenRequired=False)
         self.tokenExpire = runtime.seconds() + 25000
 
     @defer.inlineCallbacks
     def fetchCountry(self):
-        self.country = yield self._send('getCountry', script="more.php")
+        self.country = yield self.send('getCountry', script="more.php")
 
     @defer.inlineCallbacks
     def generateCallToken(self, action):
@@ -77,17 +94,8 @@ class GroovesharkAPI(object):
         defer.returnValue(seed + hashlib.sha1("%s:%s:quitStealinMahShit:%s" % (
             action, self.rawToken, seed)).hexdigest())
 
-    def send(self, action, params=None, script="service.php"):
-        if self.initialized:
-            return self._send(action, params, script)
-        else:
-            d = defer.Deferred()
-            self.commandQueue.append((
-                functools.partial(self._send, action, params, script), d))
-            return d
-
     @defer.inlineCallbacks
-    def _send(self, action, params=None, script="service.php", tokenRequired=True):
+    def send(self, action, params=None, script="service.php", tokenRequired=True):
         headers = dict(self.headers)
         dataDict = dict(method=action, parameters=params, header=headers)
 
@@ -124,36 +132,31 @@ class GroovesharkAPI(object):
             dict(songID=songID, prefetch=True, mobile=False), "more.php")
         defer.returnValue(result)
 
-    @defer.inlineCallbacks
     def downloadSong(self, streamingInfo, filename):
         url = "http://%s/stream.php" % str(streamingInfo['ip'])
         postdata = "streamKey=" + str(streamingInfo['streamKey'])
-        # I have to do this because downloadPage/HTTPDownloader
-        # doesn't support afterFoundGet, which is required
-        # to download from the Akamai servers
-        factory = client._makeGetterFactory(url, client.HTTPDownloader,
-            method="POST", postdata=postdata, headers=self.formContent,
-            fileOrName=filename)
-        factory.afterFoundGet = True
-        yield factory.deferred
+        return client.downloadPage(url, filename, client.HTTPDownloader,
+            method="POST", postdata=postdata, headers=self.formContent)
 
-    @defer.inlineCallbacks
     def downloadCoverArt(self, coverArtFilename, filename):
         _, extension = os.path.splitext(coverArtFilename)
         if coverArtFilename not in (u'None', u'False'):
-            yield client.downloadPage(ART_BASE_URL + str(coverArtFilename),
-                                      filename + extension)
+            return client.downloadPage(ART_BASE_URL + str(coverArtFilename),
+                                       filename + extension)
 
     def downloadSongID(self, songID, filename):
         print ("Downloading %s to %s" % (songID, filename))
-        self.getStreamingInfo(songID).addCallback(
+        return self.getStreamingInfo(songID).addCallbacks(
             functools.partial(self.downloadSong, filename=filename))
 
     def downloadSongInfo(self, songInfo, filename, artFilename=None):
         songID = songInfo[u'SongID']
+        d = []
         if artFilename and songInfo.get(u'CoverArtFilename'):
-            self.downloadCoverArt(songInfo[u'CoverArtFilename'], artFilename)
-        self.downloadSongID(songID, filename)
+           d.append(self.downloadCoverArt(songInfo[u'CoverArtFilename'],
+                    artFilename))
+        d.append(self.downloadSongID(songID, filename))
+        return defer.DeferredList(d)
 
     @defer.inlineCallbacks
     def getPlaylist(self, playlistID):

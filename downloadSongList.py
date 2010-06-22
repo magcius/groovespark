@@ -35,11 +35,18 @@ def main():
     options, args = parser.parse_args()
     songlist = parseSongList(args[0] if args else "songlist.txt")
     gs = api.GroovesharkAPI()
-    coop = task.Cooperator()
-    work = (gs.downloadSongInfo(i, options.f % i, options.c % i) for i in songlist)
-    #log.startLogging(sys.stdout)
-    d = defer.DeferredList([coop.coiterate(work) for i in xrange(15)])
-    d.addCallbacks(lambda res: reactor.stop, log.err)
+
+    log.startLogging(sys.stdout)
+
+    def initialized(result):
+        print "initialized"
+        print gs.country
+        coop = task.Cooperator()
+        work = (gs.downloadSongInfo(i, options.f % i, options.c % i) for i in songlist)
+        d = defer.DeferredList([coop.coiterate(work) for i in xrange(1)])
+        d.addCallbacks(lambda res: reactor.stop, log.err)
+
+    gs.initialize().addCallback(initialized)
 
 if __name__ == "__main__":
     main()

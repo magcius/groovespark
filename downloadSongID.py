@@ -8,6 +8,7 @@ from twisted.internet import reactor, defer
 @defer.inlineCallbacks
 def main(songid):
     gs = api.GroovesharkAPI()
+    yield gs.initialize()
     yield gs.downloadSongID(songid, "ss_%s" % (songid,))
     reactor.stop()
 
