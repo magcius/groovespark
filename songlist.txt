@@ -1,7 +1,8 @@
 # Comment out songs you don't want downloaded
 # Download with downloadSongList.py
 
-# Changing the 
+# Don't change the song ID.
+# Changing any other metadata isn't going to change the ID3 info of the tag.
 SongID: 2575365 ;; Name: Punk Rock Girl ;; ArtistName: The Dead Milkmen ;; AlbumName: Death Rides a Pale Cow: The Ultimate Collection ;; AlbumID: 117993 ;; ArtistID: 18902 ;; TrackNum: None
 SongID: 712583 ;; Name: Stuart ;; ArtistName: The Dead Milkmen ;; AlbumName: Beelzebubba ;; AlbumID: 184409 ;; ArtistID: 18902 ;; TrackNum: 3
 SongID: 24539127 ;; Name: Never Gonna Give You Up ;; ArtistName: Rick Astley ;; AlbumName: Whenever You Need Somebody ;; AlbumID: 100204 ;; ArtistID: 490 ;; TrackNum: 1

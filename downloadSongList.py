@@ -26,7 +26,7 @@ def main(songlist='songlist.txt', format="%(ArtistName)s - %(Name)s.mp3"):
     gs = api.GroovesharkAPI()
     coop = task.Cooperator()
     work = (gs.downloadSongID(i[u'SongID'], format % i) for i in parseSongList(songlist))
-    d = defer.DeferredList([coop.coiterate(work) for i in xrange(1)])
+    d = defer.DeferredList([coop.coiterate(work) for i in xrange(15)])
     d.addCallbacks(lambda res: reactor.stop, log.err)
 
 if __name__ == "__main__":

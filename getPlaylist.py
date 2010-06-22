@@ -12,9 +12,14 @@ def main(playlistID, filename=None):
     gs = api.GroovesharkAPI()
     result = yield gs.getPlaylist(playlistID)
     with codecs.open(filename, "w", "utf8") as file:
-        print >>file, "# Comment out songs you don't want downloaded"
-        print >>file, "# Download with downloadSongList.py\n"
-        print >>file, "# Changing the "
+        print >>file, """
+# Comment out songs you don't want downloaded.
+# Download with downloadSongList.py
+
+# Don't change the song ID.
+# Changing any other metadata isn't going to change the ID3 info of the tag.
+
+"""
         for songinfo in sorted(result['Songs'], key=lambda k: int(k[u'Sort'])):
             songinfo.pop(u'Sort')
             songinfo.pop(u'CoverArtFilename')
