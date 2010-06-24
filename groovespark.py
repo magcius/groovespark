@@ -133,10 +133,12 @@ class GroovesharkAPI(object):
         defer.returnValue(result)
 
     def downloadSong(self, streamingInfo, filename):
-        url = "http://%s/stream.php" % str(streamingInfo['ip'])
-        postdata = "streamKey=" + str(streamingInfo['streamKey'])
-        return client.downloadPage(url, filename, client.HTTPDownloader,
-            method="POST", postdata=postdata, headers=self.formContent)
+        if streamingInfo not in ([], None): # For unplayable songs in the web client
+            url = "http://%s/stream.php" % str(streamingInfo['ip'])
+            postdata = "streamKey=" + str(streamingInfo['streamKey'])
+            return client.downloadPage(url, filename, client.HTTPDownloader,
+                method="POST", postdata=postdata, headers=self.formContent)
+        return defer.succeed
 
     def downloadCoverArt(self, coverArtFilename, filename):
         _, extension = os.path.splitext(coverArtFilename)
@@ -151,12 +153,13 @@ class GroovesharkAPI(object):
 
     def downloadSongInfo(self, songInfo, filename, artFilename=None):
         songID = songInfo[u'SongID']
-        d = []
+        L = []
         if artFilename and songInfo.get(u'CoverArtFilename'):
-           d.append(self.downloadCoverArt(songInfo[u'CoverArtFilename'],
-                    artFilename))
-        d.append(self.downloadSongID(songID, filename))
-        return defer.DeferredList(d)
+            d = self.downloadCoverArt(songInfo[u'CoverArtFilename'],
+                                      artFilename)
+            if d: L.append(d)
+        L.append(self.downloadSongID(songID, filename))
+        return defer.DeferredList(L)
 
     @defer.inlineCallbacks
     def getPlaylist(self, playlistID):
