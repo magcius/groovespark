@@ -48,7 +48,7 @@ def apiWrapper(method, dumper, filename, comments, **kwargs):
     if getattr(gs, method, None):
         result = yield getattr(gs, method)(**kwargs)
     else:
-        script = kwargs.pop('script')
+        script = kwargs.pop('script', "service")
         result = yield gs.send(method, kwargs, script)
     dumper(filename, result, comments)
     reactor.stop()

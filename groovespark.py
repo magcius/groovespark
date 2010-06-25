@@ -46,7 +46,7 @@ class GroovesharkAPI(object):
         self.url = url
 
         # ok, I'm just copying the stuff from the requests.
-        self.headers = dict(client="gslite", clientRevision="20100412.39",
+        self.headers = dict(client="gslite", clientRevision="20100412.45",
                             privacy=1, uuid=str(uuid.uuid4()).upper())
 
         # Content-Type headers for usual stuff.
@@ -124,7 +124,9 @@ class GroovesharkAPI(object):
     def search(self, query, type="Songs"):
         result = yield self.send('getSearchResultsEx',
             dict(query=query, type=type), "more.php")
-        defer.returnValue(result['result'])
+        result = result['result']
+        del result[u"SongID"]
+        defer.returnValue(result.itervalues())
 
     @defer.inlineCallbacks
     def getStreamingInfo(self, songID):
@@ -138,7 +140,7 @@ class GroovesharkAPI(object):
             postdata = "streamKey=" + str(streamingInfo['streamKey'])
             return client.downloadPage(url, filename, client.HTTPDownloader,
                 method="POST", postdata=postdata, headers=self.formContent)
-        return defer.succeed
+        return defer.succeed(True)
 
     def downloadCoverArt(self, coverArtFilename, filename):
         _, extension = os.path.splitext(coverArtFilename)

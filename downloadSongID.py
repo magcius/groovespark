@@ -9,7 +9,7 @@ from twisted.internet import reactor, defer
 def main(songid, filename="id_%s.mp3"):
     gs = groovespark.GroovesharkAPI()
     yield gs.initialize()
-    yield gs.downloadSongID(songid, filename % (songid,))
+    yield gs.downloadSongID(int(songid), filename % (songid,))
     reactor.stop()
 
 if __name__ == "__main__":

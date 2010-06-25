@@ -11,6 +11,7 @@ def main(token):
     yield gs.initialize()
     result = yield gs.send('getSongFromToken', dict(token=token), "more.php")
     print result['SongID']
+    reactor.stop()
 
 if __name__ == "__main__":
     main(*sys.argv[1:])

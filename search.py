@@ -5,7 +5,7 @@ import proplist
 from twisted.internet import reactor
 
 def main(query, filename="searchlist.txt", type="Songs"):
-    proplist.apiWrapper("get", proplist.dumpSongs, filename,
+    proplist.apiWrapper("search", proplist.dumpSongs, filename,
         comments="# Query: %s" % query, query=query, type=type)
 
 if __name__ == "__main__":
