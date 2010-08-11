@@ -139,10 +139,8 @@ class GroovesharkAPI(object):
         defer.returnValue(result)
 
     def downloadSong(self, streamingInfo, filename):
-        print streamingInfo
         if streamingInfo not in ([], None): # For unplayable songs in the web client
             url = "http://%s/stream.php" % str(streamingInfo['ip'])
-            print url
             postdata = "streamKey=" + str(streamingInfo['streamKey'])
             return client.downloadPage(url, filename, client.HTTPDownloader,
                 method="POST", postdata=postdata, headers=self.formContent)
