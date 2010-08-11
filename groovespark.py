@@ -46,12 +46,15 @@ class GroovesharkAPI(object):
         self.url = url
 
         # ok, I'm just copying the stuff from the requests.
-        self.headers = dict(client="gslite", clientRevision="20100412.68",
+        self.headers = dict(client="gslite", clientRevision="20100412.81",
                             privacy=1, uuid=str(uuid.uuid4()).upper())
 
         # Content-Type headers for usual stuff.
-        self.jsonContent = {"content-type":"application/json"}
-        self.formContent = {"content-type":"application/x-www-form-urlencoded"}
+        self.jsonContent = {"Content-Type":"application/json"}
+        self.formContent = {"Content-Type":"application/x-www-form-urlencoded"}
+
+        # shhh...
+        self.httpHeaders = {"User-Agent":"Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.8) Gecko/20100721  Firefox/3.6.8"}
 
         # Token expiration date.
         self.tokenExpire = None
@@ -74,6 +77,7 @@ class GroovesharkAPI(object):
         cookies = dict()
         result = yield client.getPage(self.url, method="POST", cookies=cookies)
         self.headers['session'] = cookies['PHPSESSID']
+        self.httpHeaders['Cookie'] = "PHPSESSID=%s" % (cookies['PHPSESSID'],)
 
     @defer.inlineCallbacks
     def fetchToken(self):
@@ -108,7 +112,8 @@ class GroovesharkAPI(object):
         dataJSON = json.dumps(dataDict)
 
         resultJSON = yield client.getPage(self.getURL(script, action), method="POST",
-                                          headers=dict(self.jsonContent), postdata=dataJSON)
+            headers=dict(self.httpHeaders, **self.jsonContent), postdata=dataJSON)
+
         resultDict = json.loads(resultJSON)
 
         result = resultDict.get('result')
@@ -125,18 +130,19 @@ class GroovesharkAPI(object):
         result = yield self.send('getSearchResultsEx',
             dict(query=query, type=type), "more.php")
         result = result['result']
-        del result[u"SongID"]
-        defer.returnValue(result.itervalues())
+        defer.returnValue(result)
 
     @defer.inlineCallbacks
     def getStreamingInfo(self, songID):
         result = yield self.send('getStreamKeyFromSongIDEx',
-            dict(songID=songID, prefetch=True, mobile=False), "more.php")
+            dict(songID=songID, prefetch=False, mobile=False), "more.php")
         defer.returnValue(result)
 
     def downloadSong(self, streamingInfo, filename):
+        print streamingInfo
         if streamingInfo not in ([], None): # For unplayable songs in the web client
             url = "http://%s/stream.php" % str(streamingInfo['ip'])
+            print url
             postdata = "streamKey=" + str(streamingInfo['streamKey'])
             return client.downloadPage(url, filename, client.HTTPDownloader,
                 method="POST", postdata=postdata, headers=self.formContent)

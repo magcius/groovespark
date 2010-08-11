@@ -9,8 +9,9 @@ def dump(filename, result, comments=""):
         print >>file, """
 %s
 """ % (comments,)
+        result.pop('SongID')
         # Need float here because sometimes I get 1.2345e+16 as a string back.
-        for songinfo in sorted(result, key=lambda k: int(float(k.get('Sort', 0)))):
+        for k, songinfo in sorted(result.iteritems(), key=lambda (k,v): int(k)):
             songinfo.pop('Flags')
             songinfo.pop('Popularity')
             songinfo.pop('EstimateDuration')
