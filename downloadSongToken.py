@@ -9,7 +9,7 @@ from twisted.internet import reactor, defer
 def main(token, filename="id_%s.mp3"):
     gs = groovespark.GroovesharkAPI()
     yield gs.initialize()
-    songid = yield gs.send('getSongFromToken', dict(token=token), "more.php")['SongID']
+    songid = (yield gs.send('getSongFromToken', dict(token=token), "more.php"))['SongID']
     yield gs.downloadSongID(songid, filename % (songid,))
     reactor.stop()
 
