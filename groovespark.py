@@ -46,7 +46,7 @@ class GroovesharkAPI(object):
         self.url = url
 
         # ok, I'm just copying the stuff from the requests.
-        self.headers = dict(client="gslite", clientRevision="20100412.84",
+        self.headers = dict(client="gslite", clientRevision="20100412.85",
                             privacy=1, uuid=str(uuid.uuid4()).upper())
 
         # Content-Type headers for usual stuff.
